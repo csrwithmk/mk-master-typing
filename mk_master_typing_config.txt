@@ -1,0 +1,18 @@
+[VERSION]
+2.0
+
+[WHATSNEW]
+MK Master Typing 2.0 - My Info, My Dictionary, 200+ Emojis, Roman Urdu smart formatting (date/time/currency), Special Commands, aur bohat kuch naya. Poori tafseel app kay andar Settings > What's New mein dekhein.
+
+[FORCE_UPDATE]
+
+[MAINTENANCE]
+false
+
+[DISABLED]
+
+[NOTICE]
+
+[BANNER]
+
+[HELPTEXT]
