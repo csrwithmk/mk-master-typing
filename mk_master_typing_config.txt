@@ -7,8 +7,7 @@ MK Master Typing 2.0 - My Info, My Dictionary, 200+ Emojis, Roman Urdu smart for
 [FORCE_UPDATE]
 
 [MAINTENANCE]
-true|Server update ho raha hai, 1 ghantay mein wapas aa jayega.
-
+false
 [DISABLED]
 
 [NOTICE]
