@@ -1,0 +1,25 @@
+{
+  "_comment": "MK Master Typing - remote config. Keys starting with underscore are ignored. VERSION kept same as the installed app (2.1) so this file doesn't ALSO trigger an update prompt while you're just testing the Notice link.",
+
+  "VERSION": "2.1",
+  "WHATSNEW": "",
+
+  "DISABLED": "",
+  "FORCE_UPDATE": "",
+  "MAINTENANCE": "",
+  "BANNER": "",
+  "HELPTEXT": "",
+
+  "_comment_notice": "Testing: this notice has NO OK/Cancel button - only the link button. Back is also disabled, so tapping the link is the only way out. Tapping it opens the YouTube channel AND marks this notice as seen (because NOTICE_ONCE is true) so it will never show again on this device. If you DON'T tap it, it keeps reappearing every time the menu opens, since it was never marked seen.",
+
+  "_comment_notice_id": "NOTICE_ID gives this notice a fixed identity that does NOT change even if you edit NOTICE's wording later (e.g. fixing a typo, adding a sentence). Without NOTICE_ID, 'seen' tracking is based on the message text itself, so any edit to the text makes it count as a brand-new notice and everyone sees it again. With NOTICE_ID set, you can freely polish the wording and it stays 'already seen' for anyone who tapped it - only changing NOTICE_ID itself (e.g. to 'yt-video-2') makes it show again for everyone as a new notice.",
+
+  "NOTICE_ID": "yt-video-1",
+  "NOTICE": "Naya video upload hua hai - neeche diye gaye link per tap karen dekhne kay liye.",
+  "NOTICE_TITLE": "Naya Video",
+  "NOTICE_TYPE": "info",
+  "NOTICE_ONCE": true,
+  "NOTICE_FORCE_ACK": true,
+  "NOTICE_URL": "https://www.youtube.com/@commentaryscreenreader",
+  "NOTICE_URL_LABEL": "Video Dekhein"
+}
