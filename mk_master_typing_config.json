@@ -1,0 +1,22 @@
+{
+  "_comment": "MK Master Typing - remote config. Keys starting with underscore are ignored. VERSION kept same as the installed app (2.1) so this file doesn't ALSO trigger an update prompt while you're just testing the Notice link.",
+
+  "VERSION": "2.1",
+  "WHATSNEW": "",
+
+  "DISABLED": "",
+  "FORCE_UPDATE": "",
+  "MAINTENANCE": "",
+  "BANNER": "",
+  "HELPTEXT": "",
+
+  "_comment_notice": "Testing: this notice has NO OK/Cancel button - only the link button. Back is also disabled. Tapping the link opens it AND marks this notice as seen (because NOTICE_ONCE is true) so it will never show again on this device. If you DON'T tap it, it keeps reappearing every time the menu opens, since it was never marked seen.",
+
+  "NOTICE": "Yeh ek test notice hai. Neeche diye gaye link per tap karna zaroori hai - tap karne kay baad yeh dobara nahi aayega.",
+  "NOTICE_TITLE": "Test Notice",
+  "NOTICE_TYPE": "info",
+  "NOTICE_ONCE": true,
+  "NOTICE_FORCE_ACK": true,
+  "NOTICE_URL": "www.youtube.com/@commentaryscreenreader",
+  "NOTICE_URL_LABEL": "😂 ہا، ہا 😂"
+}
