@@ -1,5 +1,5 @@
 {
-  "_comment": "MK Master Typing - remote config. Keys starting with underscore are ignored. VERSION kept same as the installed app (2.1) so this file doesn't ALSO trigger an update prompt while you're just testing the Notice link.",
+  "_comment": "MK Master Typing - CLEAN production remote config for the 2.1 release. No Notice, no Kill-Switch, no Maintenance, no Force Update - safe to publish as-is.",
 
   "VERSION": "2.1",
   "WHATSNEW": "",
@@ -10,18 +10,14 @@
   "BANNER": "",
   "HELPTEXT": "",
 
-  "_comment_notice": "Testing: TWO link buttons, NO OK/Cancel - only the two link buttons. Back is also disabled (FORCE_ACK), so tapping either link is the only way out. Tapping EITHER one opens that link AND marks this whole notice as seen (because NOTICE_ONCE is true), so it will never show again on this device either way - clicking one counts as acknowledging the notice, the other link doesn't also need to be tapped.",
-
-  "_comment_notice_id": "NOTICE_ID gives this notice a fixed identity that does NOT change even if you edit NOTICE's wording later. Without it, 'seen' tracking is based on the message text itself, so any edit to the text makes it count as a brand-new notice. Change NOTICE_ID itself (e.g. to 'links-2') whenever you want it to show again for everyone as a new notice.",
-
-  "NOTICE_ID": "links-1",
-  "NOTICE": "Humara YouTube channel aur WhatsApp Community join karen - neeche diye gaye do links mein se kisi bhi ek per tap karen.",
-  "NOTICE_TITLE": "Humse Judiye",
-  "NOTICE_TYPE": "info",
-  "NOTICE_ONCE": true,
-  "NOTICE_FORCE_ACK": true,
-  "NOTICE_URL": "https://www.youtube.com/@commentaryscreenreader",
-  "NOTICE_URL_LABEL": "YouTube Channel",
-  "NOTICE_URL2": "https://chat.whatsapp.com/IlwxaBAm0NO59CgDwjwnaw",
-  "NOTICE_URL2_LABEL": "WhatsApp Community"
+  "NOTICE_ID": "",
+  "NOTICE": "",
+  "NOTICE_TITLE": "",
+  "NOTICE_TYPE": "",
+  "NOTICE_ONCE": "",
+  "NOTICE_FORCE_ACK": "",
+  "NOTICE_URL": "",
+  "NOTICE_URL_LABEL": "",
+  "NOTICE_URL2": "",
+  "NOTICE_URL2_LABEL": ""
 }
