@@ -1,0 +1,896 @@
+# MK Master Typing - What's New and About texts in 4 languages (Roman Urdu, English, Urdu, Hindi)
+# INFO_VERSION=1
+# Format: @@LANG <roman|english|urdu|hindi>, then @@SECTION <name>, then one text item per line.
+# Placeholders: {VERSION} {DATE} {PREVIOUS}
+
+@@LANG roman
+@@SECTION whatsnew_2_2
+MK Master Typing 2.2 - MK Master Typing {PREVIOUS} kay muqablay may:
+Naya: My Dictionary > Send Dictionary to Developer. Apni My Dictionary ki entries pehle preview mein dekhein, phir Send dabayein - developer ki WhatsApp chat khul jati hai aur text pehle se likha hota hai, bas WhatsApp ka send dabana hai (WhatsApp na ho to share menu). Bohat lambi dictionary copy ho jati hai. My Info kabhi nahi jati, aur kuch bhi apne aap nahi bheja jata.
+Naya: Urdu spelling ki safai - recognizer jo 'آ' (madda) chhor deta hai (جیسے آپ، آج، آؤ) wo wapas lag jata hai, 'ں' wali jama (جیسے کتابوں سے) jo kabhi alag ho jati hai wo jur jati hai, aur kai aam ghaltiyan theek hoti hain. Islamic phrases (جیسے انشاء اللہ) ab sahi Urdu rasm-ul-khat mein, milay hue lafz ke saath aate hain.
+Naya: Emoji aur Flags - 425 naye emoji, mulkon ke flags, aur Hindi mein bhi 'इमोजी' kehkar naam se emoji (Urdu ki tarah). Roman Urdu mein bhi naamon aur shehron ki spelling behtar.
+Naya (testing, default Off): Settings > Quran aur Hadees (In Testing). Quran: On karke Arabic ayat, tarjuma aur tashreeh mein se jo chahein chunein (kam az kam ek zaroori), phir bolein 'Quran surah number 55 ayat number 10' ya 'Quran surah Rahman ayat number 10'. Hadees: On karke bolein 'Sahih Bukhari hadees number 50' - Arabic aur Urdu tarjuma seedha mustanad source se type hota hai (abhi sirf Sahih Bukhari, community source par testing). AI ya dictionary ki koi tabdeeli nahi. Internet zaroori hai.
+Naya: Settings > Reports & Info > Send Report to Developer. Koi masla ho to chhoti si technical report (version, Android aur phone ka model, settings ki on/off halat, dictionaries ke versions) developer ki WhatsApp chat mein khul jati hai - aap ko pehle poori report nazar aati hai, aur bhejna aap ke haath mein hai. API keys, My Info, My Dictionary ke alfaaz, History ya type kiya hua text is mein kabhi shamil nahi hota.
+Hata diya: Typing Mode ki 'Offline Recognition' (Off/Auto/Always) setting poori tarah hata di gayi - ab recognizer hamesha Android/Google ke default tareeqe se chalta hai. Jin logon ne pehle ise On kiya tha, un par ab iska koi asar nahi.
+Dictionaries bari ho gayi hain: Urdu (4,000+ lafz, jismein screen reader, TTS aur accessibility ke lafz bhi), Hindi (2,500+ lafz), Roman Urdu aur Emoji and Flags.
+Naya: main menu > Download Dictionaries. Urdu aur Hindi ki word-to-word dictionary (Urdu lafz se English lafz, jaise 'WhatsApp', 'screen reader') ab code kay andar nahi, balkay alag file may hai jo aap download karte hain. Isay baghair nayi release kay update kiya ja sakta hai. main menu > Download Dictionaries se Urdu (4,000+ words) aur Hindi (2,500+ words) ki dictionary, aur Emoji and Flags dictionary (naam jaise 'red heart emoji', M-numbers jaise 'M 95', country flags aur emoji ki list/search) download hoti hain. Urdu/Hindi typing may English lafz, aur emoji, isi se aatay hain. Emoji dictionary download na ho to M-number, flag aur 'naam emoji' kaam nahi karte. Roman Urdu ki dictionary (lafz ki spelling theek karne wali) khud-ba-khud, khamoshi se download ho jati hai jab main menu khulta hai aur internet ho - Download Dictionaries may sirf aik status line dikhti hai. Internet na ho to Roman Urdu typing normal English ki tarah chalti hai. Islamic phrases (jaise 'قائدِ اعظم', 'रज़ी अल्लाहु अन्हु') bhi isi Urdu/Hindi dictionary file ka hissa hain. Purani built-in tables code se hata di gayi hain - dictionary download na ho to us zaban may English lafz wapas nahi aatay.
+Dictionary update: jab Urdu, Hindi ya Emoji dictionary ki nayi latest dictionary available hoti hai to poora extension update karne ki zaroorat nahi - Download Dictionaries mein us dictionary ke samnay 'Update available' likha aata hai, tap karein to sirf dictionary update ho jati hai. 'Updated' likha ho tab bhi tap karke dobara download ki ja sakti hai. Agar dictionary download nahi hui to extension sirf aik baar poochti hai (Later par dobara nahi poochti, Download Dictionaries se khud kar sakte hain).
+Naya: What's New aur About ab 4 zubaanon mein hain - Roman Urdu (default), English, Urdu aur Hindi. Ye texts code mein nahi, internet se aati hain: pehli baar main menu khulte hi khud-ba-khud download ho jati hain, phir internet ke baghair bhi parhi ja sakti hain. Zubaan Settings > Info Language se badlein. Agar pehli baar internet na ho to What's New ya About kholne par saaf bata diya jata hai ke pehli dafa download ke liye internet zaroori hai.
+Factory Reset download ki hui dictionaries ko nahi mitata. Unhein hatane kay liye main menu > Download Dictionaries > Delete Downloaded Dictionaries. What's New aur About ke texts Factory Reset se mit jate hain, lekin agli baar main menu khulne par khud dobara download ho jate hain.
+Created by Sana Khan & Moosa Khan. Where Every Idea Becomes Accessible. CSR with MK.
+@@SECTION whatsnew_2_1
+MK Master Typing 2.1 - MK Master Typing 2.0 (1 October 2026) kay muqablay may, aik overview:
+-- MAIN MENU & TYPING MODE --
+Switch Languages hata diya - ab aik hi unified 'Quick Favorite' system hai. Typing Mode may Language kay theek baad Quick Favorite ka naya option hai, jis may 6 combo-box slots hain (by default Slot 1 Roman Urdu, Slot 2 Urdu, Slot 3 Hindi, Slot 4 English, Slot 5 aur 6 None) - har slot kisi bhi zaban per set ho sakta hai, kam az kam 2 slots bharay honay chahiyen.
+Main menu ka 'Quick Favorite' button tap karna, 'switch language' bolna aur 'MK Master Typing switch' bolna - teen tareeqay ab hamesha isi aik configured list may cycle kartay hain, chahay abhi koi bhi typing mode chal raha ho. Start Prompt aur Sentence Ending: do nayi Typing Mode settings - listening shuru honay ka style aur jumlay kay aakhir ka nishan, sab aap chunain.
+Offline Recognition (Off/Auto/Always) aur Time Style (AM/PM ya Plain) bhee Typing Mode may nayi settings hain.
+Quiet Mode hata diya - confirmations hamesha bolti hain. Keep Listening ka 'stop listening' ab Urdu/Hindi may bhee sahi kaam karta hai, aur dohraye hue number lafz ('ek ek') ab theek rehtay hain.
+Beep kay baad bolnay ka waqt barha diya - pehlay 1-1.5 second may hi 'samajh nahi aya' aa jata tha, ab zyada time milta hai.
+-- AI, GEMINI & CLAUDE --
+Claude (Anthropic) naya AI provider hai - Gemini ya Claude may se aik chunain (Settings > AI Provider), har aik ka apna model choice (Gemini Model / Claude Model) aur Statistics may istemal ka hisaab.
+Gemini API key ab zyada mehfooz tareeqe se bheji jati hai. Urdu/Hindi AI Mode ka prompt behtar hua (English alfaaz theek rehtay hain).
+Translation Settings may ab 2 tareeqay hain: 'AI Translation' (Gemini/Claude key chahiye, behtar quality) aur naya 'Free Translation' (koi API key nahi, bas internet chahiye, Google Translate use karta hai) - dono aik hi Target Language use kartay hain (har aik ki apni Source Language bhee hai; Free Translation ki Source by default aap ki Typing Mode Language ko khud follow karti hai), aur sirf aik hi waqt may ON ho sakta hai. 'switch translation' (ya 'free translation') bol kar bhee Free Translation ON/OFF ho sakti hai - koi bhi typing mode (Roman Urdu, English, Urdu, Hindi) se chalta hai. Free Translation Tone (chhoti success/fail beep) by default OFF hai, Translation Settings may khud ON kar sakte hain.
+-- VOICE COMMANDS & SETTINGS --
+Voice Commands ab main menu may hain, A to Z list kay saath. Settings may Search Settings, Daily Typing Summary, aur Read Current Settings naye hain. AI Mode ki line ab provider bhee batati hai, aur Back gesture aik step peechay le jata hai.
+Voice calculator naya hai (jama, ghata, zarb, taqseem, percent bol kar). Punctuation commands ab 'symbol' lafz kay saath bhee chaltay hain.
+History screen par Search naya hai. Update Now ab asal mein naya main.lua utaar kar khud update karta hai, aur Notice ka poora naya system hai (title/type, dates, hafte kay din, version range wagera).
+main menu ka purana 'About' button hata diya - About, Connect with Us aur Feedback ab Settings kay 'Connect & About' may hain.
+-- ROMAN URDU SMART TYPING --
+Roman Urdu aur English typing may bohat si cheezein khud theek hoti hain: Islami alfaaz ki sahi spelling, aam lafzon ki aik jaisi spelling, auto-capital (naam, mahinay, shehar wagera), titles kay baad naam capital, aur sahi jagah per comma.
+Email/link kay dot kay baad ghalat space ki ghalti theek ho gayi.
+-- URDU & HINDI TYPING (dono zabanon may barabar) --
+Jumlay kay aakhir may sahi nishan ('۔'/'؟' Urdu may, '।' Hindi may) aur sawal ki behtar pehchan.
+Urdu/Hindi script ki safai - ghalat huroof, nukta aur extra space theek, aur alif-madda jaisi ghaltiyan (مثلاً 'اپ' ab 'آپ') theek hoti hain.
+Settings may do nayi toggles: 'English Words (Urdu/Hindi)' aur 'Number Words (Urdu/Hindi)' (dono default ON). English Words ON ho to jo English alfaaz recognizer ne Urdu/Hindi script may likh diye hon (lafz, apps, tech terms wagera - sainkron lafz shamil hain) wapas English may aa jatay hain. Number Words ON ho to Urdu/Hindi number lafz ('پانچ سو') digits (500) ban jatay hain.
+Isi toggle kay saath bol kar email, website, phone number, percent aur paise (Rs.) likhna bhee Urdu/Hindi may chalta hai.
+My Info aur My Dictionary ab Urdu/Hindi typing may bhee kaam kartay hain.
+-- EMOJI, PRIVACY & STORAGE --
+Emoji ka naam bol kar seedha type karein ('fire emoji' wagera) - Urdu, Hindi aur Roman Urdu teeno may chalta hai (Hindi may bhee 293 emoji naam shamil), aur M-number ('M 95') bhee Urdu/Hindi may ('ایم 95'/'एम 95') ab kaam karta hai. 97 naye emojis bhee shamil hain.
+My Info may 'Private' entry - sensitive cheezein (CNIC, account number) typing may chalti hain magar dikhti nahi aur backup/export may nahi jati.
+Settings > Storage Info - Private/Visible Storage ki sizes dekhein (asal folder path nahi dikhaya jata), aur 'Clear Data' se Session Log/Typing History/Statistics/Learning Log alag-alag confirmation kay sath clear karein (Settings/My Info/My Dictionary kabhi nahi chhuti).
+About MK Master Typing ab 2.1 kay saare features ki fehrist bhee rakhta hai.
+Created by Sana Khan & Moosa Khan. Where Every Idea Becomes Accessible. CSR with MK.
+@@SECTION whatsnew_2_0
+MK Master Typing 2.0 - MK Master Typing 1.0 (2024) kay muqablay may:
+-- NAAM --
+'Master Typing' se 'MK Master Typing' - naam, folder, sab jagah update ho gaya.
+-- ROMAN URDU DICTIONARY (sabse bara farq) --
+Pronunciation-fix dictionary 1450 se barh kar ab 1816 words ki hai - verbs, family terms, ghar ka saamaan, mausam, jism kay hisse, rang, safar, paisa, sehat, deen, aur common phrases shamil hain.
+Fix: pehle bohat sari entries (jaise 'lete'->'laitay') sirf trailing-space check karti thin, is wajah se 'Delete' aur 'complete' jaise English lafzon kay andar ghalat tarah match ho jati thin. Ab poori dictionary kay har entry may poora, sahi word-boundary check hai - koi English lafz kharab nahi hota.
+Naya: khud-ba-khud capitalization (pehle lafz, aur har full-stop/question-mark kay baad).
+Naya: khud-ba-khud sentence kay aakhir may period ya question-mark lagta hai (jumla sawaliya hai ya nahi, yeh samajh kar) - agar jumla pehle se hi kisi symbol/punctuation par khatam ho raha ho to dobara nahi lagta.
+Naya: bolay gaye number-words khud-ba-khud digits may badal jatay hain (jaise 'do hazaar chhabbis' -> '2026') - agar sirf aik number-word akela ho ('ek din') to woh word hi rehta hai.
+Naya: jagah/mulk/din/mahinay kay naam (proper nouns) khud-ba-khud capitalize hotay hain.
+-- VOICE COMMANDS (bilkul nayi cheez, kisi bhee mode se, text box kay bagair bhee) --
+'new line' aur 'new paragraph' - jumlay kay beech may bhee kaam kartay hain.
+'keep listening' / 'stop listening' - Continuous Listening on/off.
+'undo last typing' - ab multi-level hai, lagataar bolnay se aur peechay jata hai (raw/asal bola hua dikhata hai).
+'spell' - akela bolein, phir agli baar har letter alag bolein (jaise 'M O O S A') - guaranteed sahi spelling kay sath type hota hai, kisi jumlay kay hissay kay tor par kaam nahi karta (accidental trigger se mehfooz).
+'phone number' kay baad har digit alag bolein (English ya Roman Urdu, jaise 'zero three four two...') - 11 digits hon to standard Pakistani mobile format (XXXX-XXXXXXX) may type hota hai.
+'read current text', 'repeat last typed', 'mk master typing switch' (Roman Urdu/English kay darmiyan), 'show my info', 'show my dictionary' (seedha menu khol detay hain, text box say bhee).
+In saari commands (siwaye new line/paragraph kay) ko sirf tab execute hona jab poora jumla SIRF wahi command ho - kisi baray jumlay kay hissay kay tor par bolne se normal typing hi hoti hai.
+-- SMART FORMATTING (bilkul nayi cheez) --
+Currency: '500 rupay' -> 'Rs. 500'.
+Date: '15 September 2026' -> '15, September, 2026'.
+Time: 'teen baje' -> '3:00', 'saadhe teen baje' -> '3:30', 'sawa char baje' -> '4:15', 'paune teen baje' -> '2:45', 'derh baje' -> '1:30', 'dhai baje' -> '2:30'.
+Percentage: '50 percent' -> '50%'.
+Email: 'musa at gmail dot com' -> 'musa@gmail.com' (sirf tab jab provider aur TLD dono pehchanay huay hon, jaisay gmail/yahoo aur com/org - warna normal sentence hi rehta hai).
+Numbered lists: jumlay ki shuruaat may 'number one', 'number two' bolnay se bullet (•) aur digit lag jata hai (jaise 'number one I live in Karachi' -> '•1, I live in Karachi.').
+Brand names apni sahi capitalization kay sath: WhatsApp, YouTube, iPhone, PayPal, TikTok, LinkedIn, GitHub, wagera.
+-- SYMBOL COMMANDS --
+Naye symbols add hue: semicolon, forward slash, apostrophe, tilde, caret, dash - sab '...symbol' bol kar (jaise 'semicolon symbol').
+Fix: 'backslash'/'backlash' pehlay baghair 'symbol' kay bhee chal jatay thay (is se asal lafz 'backlash' galat type ho sakta tha) - ab yeh bhee '...symbol' maangtay hain.
+-- MY INFO (bilkul nayi cheez) --
+Apni personal jaankari (naam, phone number, address, email, wagera) save karein - jo bhee phrase bolein, wahi type ho jaye. Add/Edit/Delete, Export/Import (confirmation kay sath, kyunkay is may sensitive jaankari ho sakti hai), aur Clear All sab shamil.
+-- MY DICTIONARY (bilkul nayi cheez) --
+Apni khud ki word-replacement entries banayein - Add/Edit/Search/Delete, Export/Import (conflict-detection kay sath), alag-alag Profiles (jaise Work/Personal) kay darmiyan switch karna.
+Learning Suggestions: jab bhee 'undo last typing' se koi lafz baar baar theek karain, extension khud yaad rakhta hai aur My Dictionary > Suggestions may us lafz ko dictionary may add karnay ka option deta hai.
+-- TEXT EDITOR (bilkul nayi cheez, pehle 'Text Tools') --
+Koi bhee text paste ya bol kar likhein. Free operations abhi active hain: Read Aloud, Word/Character/Line Count, Remove Links, Remove Emojis, Remove Hashtags & Mentions, Clean Everything, Undo Last Operation.
+AI operations (Fix Grammar, Translate to English, Ask AI, AI Action) - Gemini API Keys chahiye (Settings se add karein).
+-- MENU SYSTEM (poori tarah reorganize) --
+My Info, My Dictionary, Text Editor, Settings, Quick Favorite, Typing Mode - sab aik naye, organized main menu may (purana 'Special Commands'/quick-actions wala system replace ho gaya).
+Typing Mode may: Language switch, Emoji Mood, Keep Listening, Quiet Mode, Vibration.
+Settings may: What's New, Statistics (total words/typing-turns/pehli baar kab use kiya), AI Provider (Gemini ya Claude - aik waqt may sirf aik), Gemini API Keys, Claude API Key (paid, optional, sirf aik), Claude Model (Haiku/Sonnet/Opus), Backup Everything / Restore from Backup (My Info sameet), Reset to Defaults (sirf Typing Mode kay toggles, koi data nahi chhurta).
+Welcome Tour: pehli baar extension use karnay par aik chota tour, aur About section may har feature ki tafseel.
+-- DICTIONARY FIXES (bilkul nayi cheez) --
+Missing number-words add huay: 27 (sattais), 28 (atthais), 29 (unatees), 31 (iktees) - saal (year) sahi likhnay kay liye zaroori thay.
+'Musa'/'Mousa' kay variants -> 'Moosa' (aur 'Musa Khan'/'Mousa Khan' -> 'Moosa Khan').
+Bara fix: poori dictionary ka audit kiya - 53 aam, roz-mara kay lafz (jaise 'gane', 'jab', 'kamre', 'manjil', 'sabko') galti se hamesha Capital letter kay sath type ho rahe thay, chahe jumle kay beech may hon. Ab sirf sentence-start par hi capital hota hai, jaisay hona chahiye - naam/brand-names/Islamic terms/greetings jaisi asal proper-noun entries (jo hamesha capital honi chahiye) ko haath nahi lagaya.
+Fix: kuch reduplicated Hindi-origin phrases (jaise 'dheere-dheere', 'bar-bar', 'kaun-kaun') recognizer kabhi kabhi Devanagari script may bhej deta tha, chahe hum hamesha 'en-US' maangte hain - ab 29 aisay common pairs Roman Urdu may khud-ba-khud convert ho jatay hain.
+Islamic honorifics: 'Rahmatullah' kay 3 alag alag ghalat spellings theek kiye, 'Radi Allahu Ta'ala Anha/Anho' bhee.
+'Hi' jumlay ki shuruaat may hamesha English greeting samjha jata hai (jaise 'Hi kaise ho' -> 'Hi kaisay ho'), beech may aaye to purana rule chalta hai.
+-- BEHIND THE SCENES (bilkul nayi cheez) --
+Menu khulnay par aik chhota Update Check khud-ba-khud chalta hai (20-second failsafe kay sath, taakay kabhi atak na jaye) - agar naya version available ho to bata deta hai, warna kuch nahi dikhata. Aap khud bhi kabhi bhi Settings > Check for Update se manually check kar saktay hain.
+Aapka Settings, My Info, aur My Dictionary ka data ab aik mehfooz, private jagah save hota hai - agar kabhi 'MK Master Typing' waala folder delete ho jaye (jaisay dusri app se cleanup karte waqt), aapka data phir bhi mehfooz rehta hai. Woh folder ab sirf tab bharta hai jab aap khud Export, Backup, ya Session Log Export karain.
+Naya option: Settings > Export Session Log - internal session log ko bhi Backup ki tarah export/share kar saktay hain.
+-- SPECIAL COMMANDS (1.0 se maujood tha, 2.0 may poori tarah audit + theek kiya) --
+Bara fix: dictionary-entries jin may digit ho (jaise 'j1', 'M 01') pehlay sirf lowercase may hi match hoti thin - 'J1'/'M 01' (jo recognizer aksar pehlay lafz ko capital kar kay deta hai) kaam nahi karta tha. Ab yeh sab case-insensitive hain, jaisay baaki dictionary.
+Isi fix se theek hue: Screen Reader Names (J1/J2/J3), saari Greetings/Sorry Phrases (01-10), aur saaray Emoji shortcuts.
+Emojis 73 se barh kar ab 200 hain - expressions, hands/gestures, log, jaanwar, khana, sports, mausam, aur safar/cheezein kay naye shortcuts. About may har number ki tafseel maujood hai.
+Country Flags 33 se barh kar ab 105 hain - mashhoor mulkon (Turkey, Italy, Russia, Iraq, Nigeria, Mexico, Thailand, Ukraine, wagera) kay flags shamil.
+Symbols reference-list theek ki - pehlay 'comma', 'colon' jaisay bare naam dikhatay thay jo kabhi kaam hi nahi kartay thay (asal command hamesha '...symbol' maangta hai) - ab sahi naam dikhatay hain.
+CSR with MK aur MK International Stadium kay tamam links (WhatsApp, Telegram, YouTube, Drive, email, username, playlists - 27 commands) aik alag, mehfooz table may - hamesha EXACT, clickable paste hotay hain, kabhi bhee normal sentence-cleanup (period/capitalization) say nahi bigartay.
+150+ purani individual video-links (jo pehlay merge kartay waqt chhoot gayi thin) ka reference bhi hata diya - ab sirf woh commands dikhti hain jo asal may kaam karti hain.
+-- USER INTERFACE POLISH --
+Har sub-menu (Settings, My Info, My Dictionary, Typing Mode, Text Editor) khulte hi apna naam bolta hai - kahan hain, foran pata chal jata hai.
+My Info/My Dictionary khali hon to pehli baar khulte waqt aik chhota tip milta hai ('Add Info'/'Add Word' se shuru karain).
+Poori app may 'wapas jaane' kay button ka naam consistent kar diya - hamesha 'Go Back', kahin 'Back' kahin 'Exit' nahi.
+Settings kay title/announcement may ab current Typing Mode aur Dictionary Profile ka chhota summary dikhta hai (jaise 'Roman Urdu | Personal Profile').
+AI Mode, Translation (Source/Target Language dono chun saktay hain), aur Emoji Mood kay liye Gemini API Keys chahiye (Settings se add karein, 5 tak keys save kar saktay hain) - dono AI Typing Mode aur Text Editor may available hain.
+-- NAYI LANGUAGES --
+Urdu (Nastaliq) aur Hindi (Devanagari) - apni asal script may seedha typing, AI Mode kay sath grammar/punctuation bhi theek hoti hai.
+Language menu 68 aur zabanein bhi deta hai (French, Spanish, Arabic, Chinese, Japanese wagera) - top par Search bhi hai, aur poori list bhi seedha scroll kar kay mil jati hai.
+-- TRANSLATION SETTINGS --
+Source Language aur Target Language dono alag-alag set kar saktay hain (default Urdu se English hai, lekin Hindi se English, ya Arabic se koi aur zaban bhi set kar saktay hain) - Typing Mode kay Language se bilkul mustaqil (independent).
+-- AI MODE --
+Emoji, Urdu, aur Hindi text Gemini kay sath poori tarah sahi kaam karta hai.
+5 tak Gemini API Keys save kar saktay hain - aik ki quota khatam ho to khud-ba-khud agli try hoti hai (free-tier ki limit kai guna barh jati hai). API Key kaisay banayen, iski poori tafseel Settings > Gemini API Keys per maujood hai. Agar aapkay pass paid Claude key hai to Settings > AI Provider se Claude par ja saktay hain (default Gemini hai).
+Koi bhi AI error text-box may nahi, aik alag dialog-box may saaf dikhta hai.
+-- EMOJI MOOD --
+AI khud har sentence ka matlab samajh kar sahi jagah emoji lagata hai.
+3 levels: Low (bohat kam), Medium, High (har sentence may) - Typing Mode may cycle hoti hai.
+-- HISTORY --
+Settings > History - har typing-turn (jo bola, jo type hua) mehfooz rehta hai, Favorite mark kar saktay hain (jo kabhi delete nahi hoti), Copy/Delete bhi.
+Nayi voice command: 'search emoji [lafz]' - 200 emojis may se dhoondh kar number bata deta hai.
+-- SAFETY & RELIABILITY --
+Crash-prevention guard: agar gesture jaldi-jaldi (sensor-jitter say) bar bar trigger ho, extension khud sambhal leta hai - crash nahi hota.
+Settings Android ki apni, mehfooz SharedPreferences may save hoti hain.
+Backup Everything saari saved API keys ko bhi mehfooz rakhta hai (kabhi bhi backup ki file may nahi jatin).
+Created by Sana Khan & Moosa Khan. Where Every Idea Becomes Accessible. CSR with MK.
+@@SECTION whatsnew_1_0
+Master Typing 1.0 (15 October 2024):
+Roman Urdu, Urdu (Nastaliq), Hindi (Devanagari), English, aur 68+ doosri zabanon ki voice-typing extension jo screen reader kay text box may bol kar likhnay dayta hai - pronunciation-fix dictionary (takreeban 600 words, Roman Urdu kay liye) kay sath.
+Menu system pehle se tha (jab text box na ho): Dialog + GridView, YouTube course playlists kay links, Download Extensions, aur quick actions (Accessibility Settings, Bluetooth toggle, check current date, check current temperature, Image description).
+'Special Commands' category system pehle se tha: Screen Reader Names (J1/J2/J3 jaisay short-codes), Warm Greetings, Sorry Phrases, Country Flags, Emojis (73 shortcuts), Symbols, aur CSR with MK Content and Platforms (links).
+About section pehle se tha: About Master Typing, About CSR with MK, About Feedback - feedback WhatsApp kay zariye bheja ja sakta tha, pre-filled message kay sath.
+Basic symbol commands maujood thay (comma, colon, at, hash, star, dollar, rupee, backslash, brackets, quote, wagera) - lekin word-boundary aur naming abhi is tarah refine nahi thi jaisi 2.0 may hai.
+Personal-info aur link-lookup phrases maujood thay (jaise 'my email id', 'my mobile number', 'my full address', YouTube playlist links wagera) - My Info/My Dictionary jaisa organized system nahi tha, sab isi bari dictionary may hardcoded tha.
+Security note: is version may aik 'Actions' menu-item tha jo aik obfuscated (encrypted) code-block chalata tha - iska content verify nahi ho sakta tha, is liye 2.0 banatay waqt isay poori tarah hata diya gaya.
+Created by Sana Khan & Moosa Khan. Where Every Idea Becomes Accessible. CSR with MK.
+@@SECTION about
+Welcome to MK Master Typing, version {VERSION} ({DATE}).
+Created by Sana Khan & Moosa Khan. Where Every Idea Becomes Accessible. CSR with MK.
+MK Master Typing commentary screen reader ka aik extension hai jis se aap voice se typing kar saktay hain - aur voice se hi bohat sara kaam bhee.
+-- LANGUAGES & TYPING MODES --
+Roman Urdu (default), English, Urdu (Nastaliq - apni asal script), Hindi (Devanagari - apni asal script), aur 68 doosri zabanein (French, Spanish, Arabic, Chinese wagera). Typing Mode > Language se chunein - top par Search bhi hai.
+Quick Favorite: main menu ka aik item, khud-ba-khud agli zaban par cycle karta hai (default: Roman Urdu, Urdu, Hindi, English). 'switch language' aur 'mk master typing switch' voice commands bhi ISI list mein cycle karti hain - Typing Mode > Quick Favorite se 6 slots tak zabanein khud choose kar saktay hain (kam az kam 2 zaroori hain).
+-- AI MODE, EMOJI MOOD, TRANSLATION --
+AI Mode: AI (Gemini ya Claude - Settings > AI Provider se chunain, aik waqt may sirf aik) grammar/punctuation/phrasing behtar karta hai. Gemini key ya Claude key chahiye (Settings se add karein). Dhyan rahe: AI Mode ya Translation ON ho to aap ka bola hua text us provider (Google ya Anthropic) ko bheja jata hai. Jo text bhejna nahi chahte uskay liye AI Mode OFF rakhein.
+Emoji Mood: AI Mode ON ho to, har sentence kay meaning kay mutabik khud emoji lagata hai - 4 levels (Off/Low/Medium/High), Typing Mode may cycle hoti hai.
+Translation Settings: Source Language aur Target Language dono alag-alag set kar saktay hain (default Urdu se English) - Typing Mode kay Language se bilkul mustaqil.
+-- ROMAN URDU SMART TYPING (2.1) --
+Islami alfaaz ki sahi spelling khud lagti hai (Assalamu Alaikum, Insha-Allah, Jazak-Allah wagera).
+Capital khud lagta hai - Allah, Quran, mahinay, shehar/mulk, hafte ke din, aur aam Pakistani naam kay liye.
+Titles kay baad naam capital hota hai (Dr., Mr., Hazrat wagera), aur brands/banks/short forms bhee sahi shakal may aatay hain.
+Aam lafzon ki aik jaisi spelling, aur sahi jagah per khud-ba-khud comma lagta hai.
+Time Style aur Digits (Western/Native) ab Typing Mode se chun saktay hain.
+Urdu aur Hindi may jumlay kay aakhir may sahi nishan khud lagta hai (Sentence Ending setting kay mutabik).
+-- URDU / HINDI, EMOJI, PRIVACY (2.1) --
+My Info Private entries (2.1): Add/Edit Info may 'Private' tick karein - typing normal chalti hai, lekin value chhupi rehti hai aur backup/export may nahi jati.
+Urdu/Hindi mein English alfaaz (2.1): jo English lafz recognizer Urdu/Hindi script may likh de, woh wapas English may aa jata hai (iske liye main menu > Download Dictionaries se Urdu/Hindi dictionary download honi chahiye). My Dictionary ab Urdu/Hindi may bhee kaam karta hai.
+Urdu aur Hindi safai (2.1): script ki ghaltiyan aur nishanon ki spacing khud theek ho jati hai - bagair AI aur internet kay bhee.
+Emoji naam bol kar (2.1): koi bhee emoji ka naam bolein to seedha type ho jata hai (Emoji and Flags dictionary download honi chahiye).
+Storage Info (2.1): Settings > Storage Info may dekhein ke files kahan hain aur kitni badi hain.
+-- NEW IN 2.2 --
+Download Dictionaries (main menu): Urdu, Hindi aur Emoji and Flags dictionary alag se download hoti hain, aur nayi dictionary aane par wahin 'Update available' likha aata hai - tap karne se sirf dictionary update hoti hai, poora extension nahi. Roman Urdu ki dictionary khud-ba-khud khamoshi se download ho jati hai.
+Info Language (Settings): What's New aur About MK Master Typing ko Roman Urdu, English, Urdu ya Hindi mein parhein. Ye texts pehli baar main menu khulte hi internet se khud-ba-khud download hote hain. Factory Reset inhein mita deta hai, aur agli baar khud dobara download ho jate hain.
+Send Dictionary to Developer (My Dictionary): apni My Dictionary ki entries pehle dekh kar developer ki WhatsApp chat mein bhej sakte hain. Bhejna aap ke haath mein hai, My Info kabhi nahi bheji jati.
+Send Report to Developer (Settings > Reports & Info): koi masla ho to chhoti si technical report (version, Android aur phone ka model, settings ki on/off halat, dictionaries ka status) WhatsApp mein khul jati hai. API keys, My Info, My Dictionary ke alfaaz, History aur type kiya hua text is mein kabhi shamil nahi hota.
+Urdu spelling ki safai: recognizer jo 'آ' (madda) chhor deta hai wo wapas lag jata hai, aur 'ں' wali jama theek hoti hai. Urdu dictionary mein Islami alfaaz (jaise 'انشاء اللہ') bhi theek ho jate hain.
+Quran aur Hadees (testing, shuru mein Off): Settings > Quran aur Hadees (In Testing). Quran mein Arabic ayat, tarjuma aur tashreeh mein se jo chahein chunein (kam az kam ek zaroori). Hadees mein Sahih Bukhari ka Arabic aur Urdu tarjuma. Sab kuch seedha mustanad websites se, bina kisi tabdeeli ke type hota hai. Internet zaroori hai.
+'Quran surah number 55 ayat number 10' ya 'Quran surah Rahman ayat number 10' (Quran On ho) - us ayat ko type karta hai. 'Sahih Bukhari hadees number 50' (Hadees On ho) - us hadees ko type karta hai. Ye commands tab hi chalti hain jab poora jumla sirf wohi ho.
+Typing Mode ki 'Offline Recognition' setting poori tarah hata di gayi hai.
+-- VOICE COMMANDS (kisi bhee mode se, text box kay bagair bhee) --
+'new line' aur 'new paragraph' kay ilawa, yeh saari commands SIRF tab kaam karti hain jab poora jumla SIRF wahi command ho - kisi barray jumlay kay hissay kay tor par bolne se woh normal typing hi samjhi jayegi, command nahi.
+'new line' - naya line shuru karta hai.
+'new paragraph' - naya paragraph shuru karta hai (do khali lines).
+'keep listening' - Continuous Listening on karta hai.
+'stop listening' - Continuous Listening ko turant rok deta hai.
+'undo last typing' - pichla typed lafz/jumla wapas leta hai. Lagataar bolne se aur peechay jaata hai.
+'spell' - agli baar har letter alag bol kar sahi spelling kay sath type karain.
+'phone number' kay baad digit by digit bolne se standard Pakistani mobile format may type hota hai.
+'search emoji [lafz]' - emojis may se dhoondh kar M-number bata deta hai (297 numbered emojis, Emoji dictionary chahiye).
+Link commands - CSR with MK kay links exactly wahi paste hotay hain, kisi processing kay bagair.
+Jumlay ki shuruaat may 'number one', 'number two' wagera bolein to bullet list banta hai.
+Punctuation bol kar type karein ('symbol' lafz kay saath, ya Urdu/Hindi may seedha).
+Voice calculator naya hai (2.1) - jama, ghata, zarb, taqseem aur percent, numbers bol kar bhee.
+'read current text' - text box ka poora text parh kar sunata hai.
+'repeat last typed' - aakhri type hui cheez dobara bolta hai.
+'switch language' (ya 'mk master typing switch') - Typing Mode > Quick Favorite may jo zabanein set hon, unhi kay darmiyan agli zaban par le jata hai (yehi list main menu kay 'Quick Favorite' tap say bhi chalti hai).
+'switch translation' (ya 'free translation') - Free Translation ko ON/OFF karta hai, koi bhi typing mode (Roman Urdu, English, Urdu, Hindi) se chalta hai; ON karnay par AI Translation khud OFF ho jati hai.
+-- MY DICTIONARY --
+Apni khud ki word-replacements banayein: Add Word, My Entries (search kay sath, edit/delete), Export/Import, usage count, case-sensitive option, Clear All, auto-backup.
+Profiles: alag-alag dictionaries (jaise Work aur Personal) kay beech Switch Profile se switch, Manage Profiles se naya banayein ya delete karein.
+-- MY INFO --
+Apni personal jaankari (naam, phone number, address, email, wagera) save karein - jo bhee phrase bolein wahi typed ho jaye. Jaise 'my phone number' bolne par aapka save kiya hua number seedha type ho jayega. My Dictionary se alag hai - yeh exact values kay liye hai, pronunciation-fix kay liye nahi.
+-- TEXT EDITOR --
+Koi bhee text paste ya bol kar likhein. Free operations: Read Aloud, Word/Character/Line Count (live dikhta hai), Remove Links, Remove Emojis, Remove Hashtags & Mentions, Clean Everything, Undo Last Operation.
+AI operations (Fix Grammar, Translate to English, Ask AI, AI Action) - Gemini API Keys chahiye (Settings se add karein).
+-- SETTINGS --
+AI Provider (Settings): Gemini ya Claude. Claude (Anthropic) PAID hai - Settings > Claude API Key may sirf aik key add hoti hai (key banane ka mukhtasar tareeqa wahin likha hai), aur Settings > Claude Model se Haiku (sabse sasta, default), Sonnet, ya Opus chun saktay hain. Gemini ke liye Settings > Gemini Model. Claude key kay baghair Claude par switch nahi hota.
+Gemini API Keys (1 se 5 tak) - AI Mode, Translation, Emoji Mood, aur Text Editor ki AI operations kay liye zaroori hain. Aik se zyada FREE keys save karain to quota khatam hotay hi khud-ba-khud agli key try hoti hai. Poora tareeqa isi screen per maujood hai.
+History: har typing-turn (jo bola, jo type hua) mehfooz rehta hai, Favorite mark kar saktay hain (kabhi delete nahi hoti), Copy/Delete bhi. History may Search button se koi bhee lafz dhoond saktay hain.
+Settings may Search Settings (koi bhee setting naam se dhoondein), Daily Typing Summary (pichlay 7 din ke lafz), Read Current Settings (saari settings aik jagah parh kar sunata hai), aur Statistics (Claude requests/tokens samait).
+Back gesture ya Back button ek step peechay le jata hai.
+Connect & About (Settings may Search Settings kay baad): About, Connect with Us (WhatsApp community, YouTube, Telegram, Google Drive, Contact), aur Feedback.
+Check for Update (Settings): naya version ho to 'Update Now' GitHub se naya main.lua utaar kar khud replace kar deta hai (purani file main.lua.bak may mehfooz rehti hai) - bas extension band karkay dobara chalayein. Kabhi kabhi menu khulte waqt developer ka naya Notice bhee aa sakta hai.
+What's New yaha dekh saktay hain, aur Backup Everything / Restore from Backup se pooray data ka backup rakh saktay hain (API keys kabhi backup may nahi jatin).
+Reset to Defaults (Settings): do tarah ka hai. 'Typing Settings Only' sirf Typing Mode ki settings wapas default par laata hai, baqi data (My Dictionary, My Info, History, keys) nahi chhuta. 'Factory Reset - Delete Everything' ye sab mita deta hai: Settings, API keys, My Dictionary ke tamam profiles aur entries, My Info (private bhi), History, Statistics, Session Log, Learning Log, aur Notice/Welcome Tour ka record - extension bilkul nayi install ki tarah ho jati hai, aur ye wapas nahi ho sakta. Pehle Backup Everything kar lena behtar hai. Factory Reset download ki hui dictionaries ko nahi mitata.
+Download ki hui dictionaries hatane ke liye: main menu > Download Dictionaries > Delete Downloaded Dictionaries. Isse sirf Urdu, Hindi aur Emoji dictionary hati hai, aap ka My Dictionary aur My Info nahi chhute. Dobara kabhi bhi Download Dictionaries se download ho sakti hain.
+-- ACCESSIBILITY & OTHER SETTINGS --
+Start Prompt (listening shuru honay par: Speak and Beep / Beep only), Sentence Ending (jumlay kay aakhir may period/space/new line wagera - list may say chunain), Quick Favorite (6 slots tak koi bhi zaban, kam az kam 2 zaroori - 'switch language', 'mk master typing switch' aur main menu ka tap teeno isi list mein cycle kartay hain), Vibration on/off, Session log (crash-safe rolling record).
+How to use: jab screen per text box ho, MK Master Typing execute karain aur bolein - wahi likha jayega. Jab text box na ho, yeh menu khulta hai jo abhhi describe kiya.
+Main menu may neechay sirf Exit button hai. Connect & About ab Settings may Search Settings kay baad doosra item hai (jahan aap abhhi hain): About MK Master Typing, About CSR with MK, Connect with Us (WhatsApp community, YouTube channel, Telegram community, Google Drive resources, WhatsApp par Contact Us), aur About Feedback.
+Main menu ki Voice Commands item may A to Z list, Screen reader names, Greetings, Sorry phrases, Country flags, Emojis, Symbols, aur CSR with MK kay links jaise categories hain - inki detail wahan daikh saktay hain.
+MK Master Typing update karnay kay liye: Jieshuo settings > Download additional resources > Extensions > enter keyword may 'CSRwithMK' likhein (bina space).
+Thank you so much. Enjoy MK Master Typing!
+
+@@LANG english
+@@SECTION whatsnew_2_2
+MK Master Typing 2.2 - compared to MK Master Typing {PREVIOUS}:
+New: My Dictionary > Send Dictionary to Developer. Look at your My Dictionary entries in a preview first, then press Send - the developer's WhatsApp chat opens with the text already written, and you only have to press WhatsApp's send (or the share menu if you do not have WhatsApp). A very long dictionary is copied instead. My Info is never sent, and nothing is sent automatically.
+New: Urdu spelling cleanup - the 'آ' (madda) that the recognizer drops (as in آپ، آج، آؤ) is put back, the 'ں' joining (as in کتابوں سے) that sometimes gets separated is joined again, and many common mistakes are corrected. Islamic phrases (such as انشاء اللہ) now come in correct Urdu script, with joined words.
+New: Emoji and Flags - 425 new emoji, country flags, and in Hindi too you can say 'इमोजी' to get an emoji by name (like Urdu). In Roman Urdu the spelling of names and cities is also better.
+New (testing, default Off): Settings > Quran aur Hadees (In Testing). Quran: turn it On and choose any of Arabic ayat, tarjuma (translation) and tashreeh (explanation) (at least one is required), then say 'Quran surah number 55 ayat number 10' or 'Quran surah Rahman ayat number 10'. Hadees: turn it On and say 'Sahih Bukhari hadees number 50' - the Arabic and the Urdu translation are typed directly from an authentic source (for now only Sahih Bukhari, being tested on a community source). No AI or dictionary changes anything. Internet is required.
+New: Settings > Reports & Info > Send Report to Developer. If you have a problem, a short technical report (version, Android and phone model, on/off state of settings, dictionary versions) opens in the developer's WhatsApp chat - you see the whole report first, and sending is in your hands. API keys, My Info, My Dictionary words, History or typed text are never included.
+Removed: the Typing Mode 'Offline Recognition' (Off/Auto/Always) setting was removed completely - the recognizer now always works in Android/Google's default way. For people who had turned it On before, it now has no effect.
+The dictionaries have become bigger: Urdu (4,000+ words, including screen reader, TTS and accessibility words), Hindi (2,500+ words), Roman Urdu, and Emoji and Flags.
+New: main menu > Download Dictionaries. The Urdu and Hindi word-to-word dictionary (Urdu word to English word, such as 'WhatsApp', 'screen reader') is no longer inside the code but in a separate file that you download. It can be updated without a new release. From main menu > Download Dictionaries you download the Urdu (4,000+ words) and Hindi (2,500+ words) dictionary, and the Emoji and Flags dictionary (names like 'red heart emoji', M-numbers like 'M 95', country flags, and emoji list/search). English words and emoji in Urdu/Hindi typing come from this. If the Emoji dictionary is not downloaded, M-numbers, flags and 'name emoji' do not work. The Roman Urdu dictionary (the one that fixes word spelling) is downloaded automatically and silently when the main menu opens and there is internet - Download Dictionaries shows only a status line. Without internet, Roman Urdu typing works like normal English. Islamic phrases (such as 'قائدِ اعظم', 'रज़ी अल्लाहु अन्हु') are also part of this same Urdu/Hindi dictionary file. The old built-in tables were removed from the code - if a dictionary is not downloaded, English words do not come back in that language.
+Dictionary update: when a new, latest dictionary of Urdu, Hindi or Emoji is available, you do not need to update the whole extension - in Download Dictionaries, 'Update available' is written next to that dictionary, and if you tap it only the dictionary is updated. Even when it says 'Updated' you can tap to download it again. If a dictionary is not downloaded, the extension asks only once (it does not ask again after Later; you can do it yourself from Download Dictionaries).
+New: What's New and About are now in 4 languages - Roman Urdu (default), English, Urdu and Hindi. These texts are not in the code; they come from the internet: they are downloaded automatically the first time the main menu opens, and after that can be read even without internet. Change the language from Settings > Info Language. If there is no internet the first time, opening What's New or About clearly tells you that internet is required for the first download.
+Factory Reset does not delete downloaded dictionaries. To remove them: main menu > Download Dictionaries > Delete Downloaded Dictionaries. The What's New and About texts are deleted by Factory Reset, but they are downloaded again by themselves the next time the main menu opens.
+Created by Sana Khan & Moosa Khan. Where Every Idea Becomes Accessible. CSR with MK.
+@@SECTION whatsnew_2_1
+MK Master Typing 2.1 - compared to MK Master Typing 2.0 (1 October 2026), an overview:
+-- MAIN MENU & TYPING MODE --
+Switch Languages was removed - there is now one unified 'Quick Favorite' system. In Typing Mode, right after Language, there is a new Quick Favorite option with 6 combo-box slots (by default Slot 1 Roman Urdu, Slot 2 Urdu, Slot 3 Hindi, Slot 4 English, Slots 5 and 6 None) - each slot can be set to any language, and at least 2 slots must be filled.
+Tapping the 'Quick Favorite' button on the main menu, saying 'switch language', and saying 'MK Master Typing switch' - all three now always cycle through this one configured list, whatever typing mode is currently running. Start Prompt and Sentence Ending: two new Typing Mode settings - the style of how listening starts and the symbol at the end of a sentence, both your choice.
+Offline Recognition (Off/Auto/Always) and Time Style (AM/PM or Plain) are also new settings in Typing Mode.
+Quiet Mode was removed - confirmations are always spoken. Keep Listening's 'stop listening' now also works correctly in Urdu/Hindi, and repeated number words ('ek ek') are now kept correctly.
+The time allowed for speaking after the beep was increased - before, 'not understood' sometimes came within 1-1.5 seconds; now you get more time.
+-- AI, GEMINI & CLAUDE --
+Claude (Anthropic) is a new AI provider - choose either Gemini or Claude (Settings > AI Provider), each with its own model choice (Gemini Model / Claude Model) and usage accounting in Statistics.
+The Gemini API key is now sent in a safer way. The Urdu/Hindi AI Mode prompt was improved (English words stay correct).
+Translation Settings now has 2 methods: 'AI Translation' (needs a Gemini/Claude key, better quality) and the new 'Free Translation' (no API key, just internet, uses Google Translate) - both use the same Target Language (each has its own Source Language; the Source of Free Translation by default follows your Typing Mode language automatically), and only one can be ON at a time. Free Translation can also be turned ON/OFF by saying 'switch translation' (or 'free translation') - it works from any typing mode (Roman Urdu, English, Urdu, Hindi). Free Translation Tone (a short success/fail beep) is OFF by default; you can turn it ON yourself in Translation Settings.
+-- VOICE COMMANDS & SETTINGS --
+Voice Commands are now in the main menu, with an A to Z list. Search Settings, Daily Typing Summary, and Read Current Settings are new in Settings. The AI Mode line now also tells you the provider, and the Back gesture goes back one step.
+The voice calculator is new (add, subtract, multiply, divide, percent by speaking). Punctuation commands now also work with the word 'symbol'.
+Search is new on the History screen. Update Now now really downloads the new main.lua and updates itself, and there is a whole new Notice system (title/type, dates, days of the week, version range, etc.).
+The old 'About' button on the main menu was removed - About, Connect with Us and Feedback are now in Settings under 'Connect & About'.
+-- ROMAN URDU SMART TYPING --
+Many things are corrected automatically in Roman Urdu and English typing: correct spelling of Islamic words, consistent spelling of common words, auto-capitalization (names, months, cities, etc.), names capitalized after titles, and commas in the right places.
+The mistake of a wrong space after the dot in emails/links was fixed.
+-- URDU & HINDI TYPING (equally in both languages) --
+The right end-of-sentence symbol ('۔'/'؟' in Urdu, '।' in Hindi) and better recognition of questions.
+Urdu/Hindi script cleanup - wrong letters, nukta and extra spaces are corrected, and mistakes like alif-madda (for example 'اپ' now becomes 'آپ') are fixed.
+Two new toggles in Settings: 'English Words (Urdu/Hindi)' and 'Number Words (Urdu/Hindi)' (both ON by default). With English Words ON, English words that the recognizer wrote in Urdu/Hindi script (words, apps, tech terms, etc. - including Sanskrit words) go back to English. With Number Words ON, Urdu/Hindi number words ('پانچ سو') become digits (500).
+Along with this toggle, writing email, website, phone number, percent and money (Rs.) by speaking also works in Urdu/Hindi.
+My Info and My Dictionary now also work in Urdu/Hindi typing.
+-- EMOJI, PRIVACY & STORAGE --
+Say the name of an emoji and it is typed directly ('fire emoji', etc.) - it works in Urdu, Hindi and Roman Urdu (293 emoji names are included in Hindi too), and the M-number ('M 95') now works in Urdu/Hindi as well ('ایم 95'/'एम 95'). 97 new emojis are also included.
+A 'Private' entry in My Info - sensitive things (CNIC, account number) are typed but not shown, and are not included in backup/export.
+Settings > Storage Info - see the sizes of Private/Visible Storage (the real folder path is not shown), and with 'Clear Data' you can clear the Session Log/Typing History/Statistics/Learning Log separately, each with confirmation (Settings/My Info/My Dictionary are never touched).
+About MK Master Typing now also contains a list of all the 2.1 features.
+Created by Sana Khan & Moosa Khan. Where Every Idea Becomes Accessible. CSR with MK.
+@@SECTION whatsnew_2_0
+MK Master Typing 2.0 - compared to MK Master Typing 1.0 (2024):
+-- NAME --
+'Master Typing' became 'MK Master Typing' - the name and folder were updated everywhere.
+-- ROMAN URDU DICTIONARY (the biggest difference) --
+The pronunciation-fix dictionary grew from 1450 to 1816 words - it now covers verbs, family terms, household items, weather, body parts, colours, travel, money, health, religion, and common phrases.
+Fix: previously many entries (such as 'lete' -> 'laitay') only checked for a trailing space, so they could match wrongly inside English words like 'Delete' and 'complete'. Now every entry in the whole dictionary has a full, correct word-boundary check - no English word gets damaged.
+New: automatic capitalization (the first word, and after every full stop and question mark).
+New: a period or question mark is added automatically at the end of a sentence (it works out whether the sentence is a question) - if the sentence already ends in a symbol or punctuation, nothing more is added.
+New: spoken number words automatically turn into digits (for example 'do hazaar chhabbis' -> '2026') - if there is only a single number word on its own ('ek din'), it stays as a word.
+New: names of places, countries, days and months (proper nouns) are capitalized automatically.
+-- VOICE COMMANDS (brand new, from any mode, even without a text box) --
+'new line' and 'new paragraph' - these also work in the middle of a sentence.
+'keep listening' / 'stop listening' - Continuous Listening on/off.
+'undo last typing' - now multi-level; saying it repeatedly goes further back (it shows the raw, originally spoken text).
+'spell' - say it alone, then say each letter separately next time (for example 'M O O S A') - the text is typed with guaranteed correct spelling; it does not work as part of a sentence (protection against accidental triggers).
+After 'phone number', say each digit separately (English or Roman Urdu, such as 'zero three four two...') - if there are 11 digits, it is typed in the standard Pakistani mobile format (XXXX-XXXXXXX).
+'read current text', 'repeat last typed', 'mk master typing switch' (between Roman Urdu/English), 'show my info', 'show my dictionary' (these open the menu directly, even from a text box).
+All of these commands (except new line/paragraph) run only when the ENTIRE sentence is that command - if you say it as part of a longer sentence, it is simply typed as normal text.
+-- SMART FORMATTING (brand new) --
+Currency: '500 rupay' -> 'Rs. 500'.
+Date: '15 September 2026' -> '15, September, 2026'.
+Time: 'teen baje' -> '3:00', 'saadhe teen baje' -> '3:30', 'sawa char baje' -> '4:15', 'paune teen baje' -> '2:45', 'derh baje' -> '1:30', 'dhai baje' -> '2:30'.
+Percentage: '50 percent' -> '50%'.
+Email: 'musa at gmail dot com' -> 'musa@gmail.com' (only when both the provider and the TLD are recognized, such as gmail/yahoo and com/org - otherwise it stays a normal sentence).
+Numbered lists: saying 'number one', 'number two' at the start of a sentence adds a bullet (•) and a digit (for example 'number one I live in Karachi' -> '•1, I live in Karachi.').
+Brand names with their correct capitalization: WhatsApp, YouTube, iPhone, PayPal, TikTok, LinkedIn, GitHub, etc.
+-- SYMBOL COMMANDS --
+New symbols added: semicolon, forward slash, apostrophe, tilde, caret, dash - all by saying '...symbol' (for example 'semicolon symbol').
+Fix: 'backslash'/'backlash' used to work even without the word 'symbol' (so the real word 'backlash' could be typed wrongly) - now these also need '...symbol'.
+-- MY INFO (brand new) --
+Save your personal information (name, phone number, address, email, etc.) - whatever phrase you say, that is what gets typed. Includes Add/Edit/Delete, Export/Import (with confirmation, since it may hold sensitive information), and Clear All.
+-- MY DICTIONARY (brand new) --
+Create your own word-replacement entries - Add/Edit/Search/Delete, Export/Import (with conflict detection), and switching between separate Profiles (such as Work/Personal).
+Learning Suggestions: whenever you keep correcting a word with 'undo last typing', the extension remembers it and offers, in My Dictionary > Suggestions, to add that word to your dictionary.
+-- TEXT EDITOR (brand new, earlier called 'Text Tools') --
+Paste or dictate any text. Free operations currently active: Read Aloud, Word/Character/Line Count, Remove Links, Remove Emojis, Remove Hashtags & Mentions, Clean Everything, Undo Last Operation.
+AI operations (Fix Grammar, Translate to English, Ask AI, AI Action) need Gemini API Keys (add them from Settings).
+-- MENU SYSTEM (completely reorganized) --
+My Info, My Dictionary, Text Editor, Settings, Quick Favorite, Typing Mode - all in one new, organized main menu (the old 'Special Commands'/quick-actions system was replaced).
+In Typing Mode: Language switch, Emoji Mood, Keep Listening, Quiet Mode, Vibration.
+In Settings: What's New, Statistics (total words/typing turns/when you first used it), AI Provider (Gemini or Claude - only one at a time), Gemini API Keys, Claude API Key (paid, optional, only one), Claude Model (Haiku/Sonnet/Opus), Backup Everything / Restore from Backup (including My Info), Reset to Defaults (only the Typing Mode toggles, no data is touched).
+Welcome Tour: a short tour the first time you use the extension, and details of every feature in the About section.
+-- DICTIONARY FIXES (brand new) --
+Missing number words added: 27 (sattais), 28 (atthais), 29 (unatees), 31 (iktees) - these were needed to write years correctly.
+Variants of 'Musa'/'Mousa' -> 'Moosa' (and 'Musa Khan'/'Mousa Khan' -> 'Moosa Khan').
+Big fix: the whole dictionary was audited - 53 common everyday words (such as 'gane', 'jab', 'kamre', 'manjil', 'sabko') were wrongly always typed with a capital letter, even in the middle of a sentence. Now they are capitalized only at the start of a sentence, as they should be - real proper-noun entries (names/brand names/Islamic terms/greetings that must always be capitalized) were left untouched.
+Fix: the recognizer sometimes sent a few reduplicated Hindi-origin phrases (such as 'dheere-dheere', 'bar-bar', 'kaun-kaun') in Devanagari script even though we always ask for 'en-US' - now 29 such common pairs are converted to Roman Urdu automatically.
+Islamic honorifics: 3 different wrong spellings of 'Rahmatullah' were fixed, as well as 'Radi Allahu Ta'ala Anha/Anho'.
+'Hi' at the start of a sentence is always treated as an English greeting (for example 'Hi kaise ho' -> 'Hi kaisay ho'); in the middle of a sentence the old rule applies.
+-- BEHIND THE SCENES (brand new) --
+A short Update Check runs automatically when the menu opens (with a 20-second failsafe so it never hangs) - if a new version is available it tells you, otherwise it shows nothing. You can also check manually at any time from Settings > Check for Update.
+Your Settings, My Info and My Dictionary data are now saved in a safe, private place - even if the 'MK Master Typing' folder is ever deleted (for example during cleanup by another app), your data stays safe. That folder is now filled only when you yourself do an Export, Backup or Session Log Export.
+New option: Settings > Export Session Log - you can export/share the internal session log just like a backup.
+-- SPECIAL COMMANDS (existed since 1.0, fully audited and fixed in 2.0) --
+Big fix: dictionary entries containing a digit (such as 'j1', 'M 01') used to match only in lowercase - 'J1'/'M 01' (which the recognizer often gives with a capital first letter) did not work. Now all of these are case-insensitive, like the rest of the dictionary.
+This same fix repaired: Screen Reader Names (J1/J2/J3), all Greetings/Sorry Phrases (01-10), and all Emoji shortcuts.
+Emojis grew from 73 to 200 - new shortcuts for expressions, hands/gestures, people, animals, food, sports, weather, and travel/objects. The About section lists the details of every number.
+Country Flags grew from 33 to 105 - flags of well-known countries (Turkey, Italy, Russia, Iraq, Nigeria, Mexico, Thailand, Ukraine, etc.) were added.
+The Symbols reference list was corrected - it used to show plain names like 'comma', 'colon' that never worked (the real command always needs '...symbol') - now it shows the right names.
+All links of CSR with MK and MK International Stadium (WhatsApp, Telegram, YouTube, Drive, email, username, playlists - 27 commands) are in a separate, safe table - they are always pasted EXACT and clickable, and are never damaged by normal sentence cleanup (period/capitalization).
+References to 150+ old individual video links (which were left over from the earlier merge) were also removed - now only commands that really work are shown.
+-- USER INTERFACE POLISH --
+Every sub-menu (Settings, My Info, My Dictionary, Typing Mode, Text Editor) announces its name as soon as it opens - you know right away where you are.
+When My Info/My Dictionary are empty, you get a short tip the first time you open them (start with 'Add Info'/'Add Word').
+The name of the 'go back' button is now consistent across the whole app - always 'Go Back', never 'Back' in one place and 'Exit' in another.
+The title/announcement of Settings now shows a short summary of the current Typing Mode and Dictionary Profile (for example 'Roman Urdu | Personal Profile').
+AI Mode, Translation (you can choose both Source and Target Language), and Emoji Mood need Gemini API Keys (add them from Settings, up to 5 keys can be saved) - both are available in AI Typing Mode and in Text Editor.
+-- NEW LANGUAGES --
+Urdu (Nastaliq) and Hindi (Devanagari) - direct typing in their own native script; with AI Mode, grammar/punctuation is corrected too.
+The Language menu also offers 68 more languages (French, Spanish, Arabic, Chinese, Japanese, etc.) - there is a Search at the top, and the whole list can also be scrolled directly.
+-- TRANSLATION SETTINGS --
+Source Language and Target Language can be set separately (the default is Urdu to English, but you can also set Hindi to English, or Arabic to any other language) - completely independent from the Typing Mode language.
+-- AI MODE --
+Emoji, Urdu and Hindi text work fully correctly with Gemini.
+Up to 5 Gemini API Keys can be saved - when one runs out of quota the next is tried automatically (the free-tier limit multiplies several times over). The full details of how to create an API Key are on Settings > Gemini API Keys. If you have a paid Claude key you can switch to Claude from Settings > AI Provider (the default is Gemini).
+Any AI error is shown clearly in a separate dialog box, not inside the text box.
+-- EMOJI MOOD --
+The AI understands the meaning of each sentence and puts emoji in the right places.
+3 levels: Low (very few), Medium, High (in every sentence) - cycled from Typing Mode.
+-- HISTORY --
+Settings > History - every typing turn (what you said, what was typed) is saved; you can mark Favorites (which are never deleted), and also Copy/Delete.
+New voice command: 'search emoji [word]' - searches among 200 emojis and tells you the number.
+-- SAFETY & RELIABILITY --
+Crash-prevention guard: if a gesture is triggered again and again in quick succession (from sensor jitter), the extension handles it itself - no crash.
+Settings are saved in Android's own safe SharedPreferences.
+Backup Everything also keeps all saved API keys safe (they are never in the backup file).
+Created by Sana Khan & Moosa Khan. Where Every Idea Becomes Accessible. CSR with MK.
+@@SECTION whatsnew_1_0
+Master Typing 1.0 (15 October 2024):
+A voice-typing extension for Roman Urdu, Urdu (Nastaliq), Hindi (Devanagari), English and 68+ other languages that lets you speak into a screen reader's text box - with a pronunciation-fix dictionary (about 600 words, for Roman Urdu).
+The menu system already existed (when there is no text box): Dialog + GridView, links to YouTube course playlists, Download Extensions, and quick actions (Accessibility Settings, Bluetooth toggle, check current date, check current temperature, Image description).
+The 'Special Commands' category system already existed: Screen Reader Names (short codes like J1/J2/J3), Warm Greetings, Sorry Phrases, Country Flags, Emojis (73 shortcuts), Symbols, and CSR with MK Content and Platforms (links).
+The About section already existed: About Master Typing, About CSR with MK, About Feedback - feedback could be sent through WhatsApp with a pre-filled message.
+Basic symbol commands existed (comma, colon, at, hash, star, dollar, rupee, backslash, brackets, quote, etc.) - but word boundaries and naming were not yet refined the way they are in 2.0.
+Personal-info and link-lookup phrases existed (such as 'my email id', 'my mobile number', 'my full address', YouTube playlist links, etc.) - there was no organized system like My Info/My Dictionary; everything was hardcoded in this one big dictionary.
+Security note: this version had an 'Actions' menu item that ran an obfuscated (encrypted) block of code - its content could not be verified, so it was removed completely when 2.0 was built.
+Created by Sana Khan & Moosa Khan. Where Every Idea Becomes Accessible. CSR with MK.
+@@SECTION about
+Welcome to MK Master Typing, version {VERSION} ({DATE}).
+Created by Sana Khan & Moosa Khan. Where Every Idea Becomes Accessible. CSR with MK.
+MK Master Typing is an extension for the commentary screen reader that lets you type by voice - and do a lot of other work by voice as well.
+-- LANGUAGES & TYPING MODES --
+Roman Urdu (default), English, Urdu (Nastaliq - its own native script), Hindi (Devanagari - its own native script), and 68 other languages (French, Spanish, Arabic, Chinese, etc.). Choose from Typing Mode > Language - there is a Search at the top too.
+Quick Favorite: an item on the main menu that cycles to the next language automatically (default: Roman Urdu, Urdu, Hindi, English). The voice commands 'switch language' and 'mk master typing switch' cycle through the SAME list - from Typing Mode > Quick Favorite you can choose up to 6 languages yourself (at least 2 are required).
+-- AI MODE, EMOJI MOOD, TRANSLATION --
+AI Mode: AI (Gemini or Claude - choose from Settings > AI Provider, only one at a time) improves grammar/punctuation/phrasing. A Gemini key or Claude key is needed (add it from Settings). Note: when AI Mode or Translation is ON, the text you speak is sent to that provider (Google or Anthropic). Keep AI Mode OFF for text you do not want to send.
+Emoji Mood: when AI Mode is ON, it adds emoji by itself according to the meaning of each sentence - 4 levels (Off/Low/Medium/High), cycled from Typing Mode.
+Translation Settings: Source Language and Target Language can be set separately (default Urdu to English) - completely independent from the Typing Mode language.
+-- ROMAN URDU SMART TYPING (2.1) --
+The correct spelling of Islamic words is applied automatically (Assalamu Alaikum, Insha-Allah, Jazak-Allah, etc.).
+Capitals are applied automatically - for Allah, Quran, months, cities/countries, days of the week, and common Pakistani names.
+Names are capitalized after titles (Dr., Mr., Hazrat, etc.), and brands/banks/short forms also appear in their proper form.
+Common words get consistent spelling, and commas are added automatically in the right places.
+Time Style and Digits (Western/Native) can now be chosen from Typing Mode.
+In Urdu and Hindi the correct symbol at the end of a sentence is added automatically (according to the Sentence Ending setting).
+-- URDU / HINDI, EMOJI, PRIVACY (2.1) --
+My Info Private entries (2.1): tick 'Private' in Add/Edit Info - typing works normally, but the value stays hidden and is not included in backup/export.
+English words in Urdu/Hindi (2.1): English words that the recognizer writes in Urdu/Hindi script come back as English (for this, the Urdu/Hindi dictionary must be downloaded from main menu > Download Dictionaries). My Dictionary now also works in Urdu/Hindi.
+Urdu and Hindi cleanup (2.1): script mistakes and spacing around symbols are corrected automatically - even without AI and internet.
+Emoji by name (2.1): say the name of any emoji and it is typed directly (the Emoji and Flags dictionary must be downloaded).
+Storage Info (2.1): in Settings > Storage Info see where the files are and how large they are.
+-- NEW IN 2.2 --
+Download Dictionaries (main menu): the Urdu, Hindi and Emoji and Flags dictionaries are downloaded separately, and when a new dictionary arrives 'Update available' is written right there - tapping updates only the dictionary, not the whole extension. The Roman Urdu dictionary is downloaded automatically and silently.
+Info Language (Settings): read What's New and About MK Master Typing in Roman Urdu, English, Urdu or Hindi. These texts are downloaded automatically from the internet the first time the main menu opens. Factory Reset deletes them, and they are downloaded again by themselves next time.
+Send Dictionary to Developer (My Dictionary): you can look at your My Dictionary entries and send them to the developer's WhatsApp chat. Sending is in your hands, and My Info is never sent.
+Send Report to Developer (Settings > Reports & Info): if you have a problem, a short technical report (version, Android and phone model, on/off state of settings, dictionary status) opens in WhatsApp. API keys, My Info, My Dictionary words, History and typed text are never included.
+Urdu spelling cleanup: the 'آ' (madda) that the recognizer drops is put back, and the 'ں' joining is corrected. In the Urdu dictionary, Islamic words (such as 'انشاء اللہ') are also corrected.
+Quran and Hadees (testing, Off at first): Settings > Quran aur Hadees (In Testing). In Quran, choose any of Arabic ayat, tarjuma and tashreeh (at least one is required). In Hadees, the Arabic and Urdu translation of Sahih Bukhari. Everything is typed directly from authentic websites, without any change. Internet is required.
+'Quran surah number 55 ayat number 10' or 'Quran surah Rahman ayat number 10' (with Quran On) - types that ayat. 'Sahih Bukhari hadees number 50' (with Hadees On) - types that hadees. These commands work only when the entire sentence is just that.
+The Typing Mode 'Offline Recognition' setting has been removed completely.
+-- VOICE COMMANDS (from any mode, even without a text box) --
+Apart from 'new line' and 'new paragraph', all these commands work ONLY when the entire sentence is that command - if you say it as part of a longer sentence, it will be treated as normal typing, not a command.
+'new line' - starts a new line.
+'new paragraph' - starts a new paragraph (two blank lines).
+'keep listening' - turns on Continuous Listening.
+'stop listening' - stops Continuous Listening immediately.
+'undo last typing' - takes back the last typed word/sentence. Saying it repeatedly goes further back.
+'spell' - next time, say each letter separately and it is typed with the correct spelling.
+After 'phone number', saying digit by digit types it in the standard Pakistani mobile format.
+'search emoji [word]' - searches among emojis and tells you the M-number (297 numbered emojis, the Emoji dictionary is needed).
+Link commands - the CSR with MK links are pasted exactly as they are, with no processing.
+Saying 'number one', 'number two', etc. at the start of a sentence makes a bullet list.
+Type punctuation by speaking it (with the word 'symbol', or directly in Urdu/Hindi).
+The voice calculator is new (2.1) - add, subtract, multiply, divide and percent, by speaking numbers too.
+'read current text' - reads the whole text of the text box aloud.
+'repeat last typed' - speaks the last typed thing again.
+'switch language' (or 'mk master typing switch') - moves to the next language among those set in Typing Mode > Quick Favorite (the same list also works from tapping 'Quick Favorite' on the main menu).
+'switch translation' (or 'free translation') - turns Free Translation ON/OFF, and works from any typing mode (Roman Urdu, English, Urdu, Hindi); when turned ON, AI Translation turns OFF by itself.
+-- MY DICTIONARY --
+Create your own word-replacements: Add Word, My Entries (with search, edit/delete), Export/Import, usage count, case-sensitive option, Clear All, auto-backup.
+Profiles: switch between separate dictionaries (such as Work and Personal) with Switch Profile, and create or delete one with Manage Profiles.
+-- MY INFO --
+Save your personal information (name, phone number, address, email, etc.) - whatever phrase you say, that gets typed. For example, saying 'my phone number' types your saved number directly. It is different from My Dictionary - this is for exact values, not for pronunciation fixes.
+-- TEXT EDITOR --
+Paste or dictate any text. Free operations: Read Aloud, Word/Character/Line Count (shown live), Remove Links, Remove Emojis, Remove Hashtags & Mentions, Clean Everything, Undo Last Operation.
+AI operations (Fix Grammar, Translate to English, Ask AI, AI Action) - Gemini API Keys are needed (add them from Settings).
+-- SETTINGS --
+AI Provider (Settings): Gemini or Claude. Claude (Anthropic) is PAID - only one key is added in Settings > Claude API Key (a short way to create a key is written there), and from Settings > Claude Model you can choose Haiku (cheapest, default), Sonnet, or Opus. For Gemini, Settings > Gemini Model. You cannot switch to Claude without a Claude key.
+Gemini API Keys (1 to 5) - needed for AI Mode, Translation, Emoji Mood, and the AI operations of Text Editor. If you save more than one FREE key, the next key is tried automatically as soon as one runs out of quota. The full method is on that same screen.
+History: every typing turn (what you said, what was typed) is saved; you can mark Favorites (never deleted), and also Copy/Delete. In History you can find any word with the Search button.
+In Settings: Search Settings (find any setting by name), Daily Typing Summary (words of the last 7 days), Read Current Settings (reads all settings aloud in one place), and Statistics (including Claude requests/tokens).
+The Back gesture or Back button goes back one step.
+Connect & About (in Settings, after Search Settings): About, Connect with Us (WhatsApp community, YouTube, Telegram, Google Drive, Contact), and Feedback.
+Check for Update (Settings): if there is a new version, 'Update Now' downloads the new main.lua from GitHub and replaces itself (the old file is kept as main.lua.bak) - just close the extension and run it again. Sometimes a new Notice from the developer may also appear when the menu opens.
+You can see What's New here, and with Backup Everything / Restore from Backup you can back up all your data (API keys are never in the backup).
+Reset to Defaults (Settings): it comes in two kinds. 'Typing Settings Only' brings only the Typing Mode settings back to default and does not touch the rest of the data (My Dictionary, My Info, History, keys). 'Factory Reset - Delete Everything' deletes all of this: Settings, API keys, all My Dictionary profiles and entries, My Info (including private), History, Statistics, Session Log, Learning Log, and the Notice/Welcome Tour record - the extension becomes exactly like a fresh install, and this cannot be undone. It is better to do Backup Everything first. Factory Reset does not delete downloaded dictionaries.
+To remove downloaded dictionaries: main menu > Download Dictionaries > Delete Downloaded Dictionaries. This removes only the Urdu, Hindi and Emoji dictionaries; your My Dictionary and My Info are not touched. They can be downloaded again at any time from Download Dictionaries.
+-- ACCESSIBILITY & OTHER SETTINGS --
+Start Prompt (when listening starts: Speak and Beep / Beep only), Sentence Ending (period/space/new line, etc. at the end of a sentence - choose from the list), Quick Favorite (any language, up to 6 slots, at least 2 required - 'switch language', 'mk master typing switch' and the tap on the main menu all cycle through this same list), Vibration on/off, Session log (a crash-safe rolling record).
+How to use: when there is a text box on the screen, run MK Master Typing and speak - exactly that is written. When there is no text box, this menu opens, which has just been described.
+There is only an Exit button at the bottom of the main menu. Connect & About is now the second item in Settings after Search Settings (where you are right now): About MK Master Typing, About CSR with MK, Connect with Us (WhatsApp community, YouTube channel, Telegram community, Google Drive resources, Contact Us on WhatsApp), and About Feedback.
+The main menu's Voice Commands item has categories like the A to Z list, Screen reader names, Greetings, Sorry phrases, Country flags, Emojis, Symbols, and CSR with MK links - you can see their details there.
+To update MK Master Typing: Jieshuo settings > Download additional resources > Extensions > in the keyword field write 'CSRwithMK' (without a space).
+Thank you so much. Enjoy MK Master Typing!
+
+@@LANG urdu
+@@SECTION whatsnew_2_2
+MK Master Typing 2.2 - MK Master Typing {PREVIOUS} کے مقابلے میں:
+نیا: My Dictionary > Send Dictionary to Developer۔ اپنی My Dictionary کی انٹریز پہلے پری ویو میں دیکھیں، پھر Send دبائیں۔ ڈویلپر کی واٹس ایپ چیٹ کھل جاتی ہے اور متن پہلے سے لکھا ہوتا ہے، بس واٹس ایپ کا سینڈ دبانا ہے (واٹس ایپ نہ ہو تو شیئر مینیو)۔ بہت لمبی ڈکشنری کاپی ہو جاتی ہے۔ My Info کبھی نہیں جاتی، اور کچھ بھی اپنے آپ نہیں بھیجا جاتا۔
+نیا: اردو ہجے کی صفائی۔ ریکگنائزر جو 'آ' (مدہ) چھوڑ دیتا ہے (جیسے آپ، آج، آؤ) وہ واپس لگ جاتا ہے، 'ں' والی جمع (جیسے کتابوں سے) جو کبھی الگ ہو جاتی ہے وہ جُڑ جاتی ہے، اور کئی عام غلطیاں درست ہوتی ہیں۔ اسلامی جملے (جیسے انشاء اللہ) اب درست اردو رسم الخط میں، ملے ہوئے الفاظ کے ساتھ آتے ہیں۔
+نیا: Emoji and Flags۔ 425 نئے ایموجی، ملکوں کے جھنڈے، اور ہندی میں بھی 'इमोजी' کہہ کر نام سے ایموجی (اردو کی طرح)۔ رومن اردو میں بھی ناموں اور شہروں کی ہجے بہتر ہے۔
+نیا (ٹیسٹنگ، ڈیفالٹ آف): Settings > Quran aur Hadees (In Testing)۔ Quran: آن کر کے عربی آیت، ترجمہ اور تشریح میں سے جو چاہیں چنیں (کم از کم ایک ضروری ہے)، پھر بولیں 'Quran surah number 55 ayat number 10' یا 'Quran surah Rahman ayat number 10'۔ Hadees: آن کر کے بولیں 'Sahih Bukhari hadees number 50'۔ عربی اور اردو ترجمہ سیدھا مستند ماخذ سے ٹائپ ہوتا ہے (ابھی صرف صحیح بخاری، کمیونٹی ماخذ پر ٹیسٹنگ)۔ AI یا ڈکشنری کی کوئی تبدیلی نہیں۔ انٹرنیٹ ضروری ہے۔
+نیا: Settings > Reports & Info > Send Report to Developer۔ کوئی مسئلہ ہو تو ایک مختصر تکنیکی رپورٹ (ورژن، اینڈرائیڈ اور فون کا ماڈل، سیٹنگز کی آن/آف حالت، ڈکشنریوں کے ورژن) ڈویلپر کی واٹس ایپ چیٹ میں کھل جاتی ہے۔ آپ کو پہلے پوری رپورٹ نظر آتی ہے، اور بھیجنا آپ کے ہاتھ میں ہے۔ API keys، My Info، My Dictionary کے الفاظ، History یا ٹائپ کیا ہوا متن اس میں کبھی شامل نہیں ہوتا۔
+ہٹا دیا گیا: Typing Mode کی 'Offline Recognition' (Off/Auto/Always) سیٹنگ مکمل طور پر ہٹا دی گئی۔ اب ریکگنائزر ہمیشہ اینڈرائیڈ/گوگل کے ڈیفالٹ طریقے سے چلتا ہے۔ جن لوگوں نے پہلے اسے آن کیا تھا، ان پر اب اس کا کوئی اثر نہیں۔
+ڈکشنریاں بڑی ہو گئی ہیں: اردو (4,000 سے زیادہ الفاظ، جن میں اسکرین ریڈر، TTS اور ایکسیسبلٹی کے الفاظ بھی ہیں)، ہندی (2,500 سے زیادہ الفاظ)، رومن اردو، اور Emoji and Flags۔
+نیا: مین مینیو > Download Dictionaries۔ اردو اور ہندی کی لفظ بہ لفظ ڈکشنری (اردو لفظ سے انگریزی لفظ، جیسے 'WhatsApp'، 'screen reader') اب کوڈ کے اندر نہیں بلکہ الگ فائل میں ہے جو آپ ڈاؤن لوڈ کرتے ہیں۔ اسے نئی ریلیز کے بغیر اپ ڈیٹ کیا جا سکتا ہے۔ مین مینیو > Download Dictionaries سے اردو (4,000 سے زیادہ الفاظ) اور ہندی (2,500 سے زیادہ الفاظ) کی ڈکشنری، اور Emoji and Flags ڈکشنری (نام جیسے 'red heart emoji'، M-نمبر جیسے 'M 95'، ملکوں کے جھنڈے اور ایموجی کی فہرست/تلاش) ڈاؤن لوڈ ہوتی ہیں۔ اردو/ہندی ٹائپنگ میں انگریزی الفاظ اور ایموجی اسی سے آتے ہیں۔ Emoji ڈکشنری ڈاؤن لوڈ نہ ہو تو M-نمبر، جھنڈے اور 'نام emoji' کام نہیں کرتے۔ رومن اردو کی ڈکشنری (لفظ کی ہجے درست کرنے والی) خود بخود، خاموشی سے ڈاؤن لوڈ ہو جاتی ہے جب مین مینیو کھلتا ہے اور انٹرنیٹ ہو۔ Download Dictionaries میں صرف ایک اسٹیٹس لائن دکھتی ہے۔ انٹرنیٹ نہ ہو تو رومن اردو ٹائپنگ عام انگریزی کی طرح چلتی ہے۔ اسلامی جملے (جیسے 'قائدِ اعظم'، 'रज़ी अल्लाहु अन्हु') بھی اسی اردو/ہندی ڈکشنری فائل کا حصہ ہیں۔ پرانی بلٹ اِن ٹیبلز کوڈ سے ہٹا دی گئیں۔ ڈکشنری ڈاؤن لوڈ نہ ہو تو اس زبان میں انگریزی الفاظ واپس نہیں آتے۔
+ڈکشنری اپ ڈیٹ: جب اردو، ہندی یا Emoji ڈکشنری کی نئی تازہ ترین ڈکشنری دستیاب ہوتی ہے تو پوری ایکسٹینشن اپ ڈیٹ کرنے کی ضرورت نہیں۔ Download Dictionaries میں اس ڈکشنری کے سامنے 'Update available' لکھا آتا ہے، ٹیپ کریں تو صرف ڈکشنری اپ ڈیٹ ہو جاتی ہے۔ 'Updated' لکھا ہو تب بھی ٹیپ کر کے دوبارہ ڈاؤن لوڈ کی جا سکتی ہے۔ اگر ڈکشنری ڈاؤن لوڈ نہیں ہوئی تو ایکسٹینشن صرف ایک بار پوچھتی ہے (Later پر دوبارہ نہیں پوچھتی، Download Dictionaries سے خود کر سکتے ہیں)۔
+نیا: What's New اور About اب 4 زبانوں میں ہیں: رومن اردو (ڈیفالٹ)، انگریزی، اردو اور ہندی۔ یہ متن کوڈ میں نہیں بلکہ انٹرنیٹ سے آتا ہے: مین مینیو پہلی بار کھلتے ہی خود بخود ڈاؤن لوڈ ہو جاتا ہے، پھر انٹرنیٹ کے بغیر بھی پڑھا جا سکتا ہے۔ زبان Settings > Info Language سے بدلیں۔ اگر پہلی بار انٹرنیٹ نہ ہو تو What's New یا About کھولنے پر صاف بتا دیا جاتا ہے کہ پہلی بار ڈاؤن لوڈ کے لیے انٹرنیٹ ضروری ہے۔
+Factory Reset ڈاؤن لوڈ کی ہوئی ڈکشنریوں کو نہیں مٹاتا۔ انہیں ہٹانے کے لیے: مین مینیو > Download Dictionaries > Delete Downloaded Dictionaries۔ What's New اور About کے متن Factory Reset سے مٹ جاتے ہیں، لیکن اگلی بار مین مینیو کھلنے پر خود دوبارہ ڈاؤن لوڈ ہو جاتے ہیں۔
+بنانے والے: ثناء خان اور موسیٰ خان۔ Where Every Idea Becomes Accessible. CSR with MK۔
+@@SECTION whatsnew_2_1
+MK Master Typing 2.1 - MK Master Typing 2.0 (1 October 2026) کے مقابلے میں، ایک جائزہ:
+-- مین مینیو اور TYPING MODE --
+Switch Languages ہٹا دیا گیا۔ اب ایک ہی متحد 'Quick Favorite' نظام ہے۔ Typing Mode میں Language کے فوراً بعد Quick Favorite کا نیا آپشن ہے، جس میں 6 کومبو باکس سلاٹس ہیں (ڈیفالٹ میں Slot 1 رومن اردو، Slot 2 اردو، Slot 3 ہندی، Slot 4 انگریزی، Slot 5 اور 6 کوئی نہیں)۔ ہر سلاٹ کسی بھی زبان پر سیٹ ہو سکتا ہے، کم از کم 2 سلاٹ بھرے ہونے چاہییں۔
+مین مینیو کا 'Quick Favorite' بٹن دبانا، 'switch language' بولنا اور 'MK Master Typing switch' بولنا، یہ تینوں طریقے اب ہمیشہ اسی ایک ترتیب شدہ فہرست میں گھومتے ہیں، چاہے ابھی کوئی بھی ٹائپنگ موڈ چل رہا ہو۔ Start Prompt اور Sentence Ending: Typing Mode کی دو نئی سیٹنگز۔ سننا شروع ہونے کا انداز اور جملے کے آخر کی علامت، دونوں آپ کی پسند کے مطابق۔
+Offline Recognition (Off/Auto/Always) اور Time Style (AM/PM یا Plain) بھی Typing Mode کی نئی سیٹنگز ہیں۔
+Quiet Mode ہٹا دیا گیا۔ تصدیقی آوازیں ہمیشہ بولی جاتی ہیں۔ Keep Listening کا 'stop listening' اب اردو/ہندی میں بھی ٹھیک کام کرتا ہے، اور دہرائے ہوئے نمبر کے الفاظ ('ek ek') اب درست رہتے ہیں۔
+بیپ کے بعد بولنے کا وقت بڑھا دیا گیا۔ پہلے 1 سے 1.5 سیکنڈ میں ہی 'سمجھ نہیں آیا' آ جاتا تھا، اب زیادہ وقت ملتا ہے۔
+-- AI، GEMINI اور CLAUDE --
+Claude (Anthropic) نیا AI فراہم کنندہ ہے۔ Gemini یا Claude میں سے ایک چنیں (Settings > AI Provider)۔ ہر ایک کا اپنا ماڈل انتخاب (Gemini Model / Claude Model) اور Statistics میں استعمال کا حساب۔
+Gemini API key اب زیادہ محفوظ طریقے سے بھیجی جاتی ہے۔ اردو/ہندی AI Mode کا پرامپٹ بہتر ہوا (انگریزی الفاظ درست رہتے ہیں)۔
+Translation Settings میں اب 2 طریقے ہیں: 'AI Translation' (Gemini/Claude key چاہیے، بہتر معیار) اور نیا 'Free Translation' (کوئی API key نہیں، بس انٹرنیٹ چاہیے، Google Translate استعمال کرتا ہے)۔ دونوں ایک ہی Target Language استعمال کرتے ہیں (ہر ایک کی اپنی Source Language بھی ہے، Free Translation کی Source ڈیفالٹ میں آپ کی Typing Mode کی زبان کو خود فالو کرتی ہے)، اور ایک وقت میں صرف ایک ہی آن ہو سکتا ہے۔ 'switch translation' (یا 'free translation') بول کر بھی Free Translation آن/آف ہو سکتی ہے۔ کسی بھی ٹائپنگ موڈ (رومن اردو، انگریزی، اردو، ہندی) سے چلتا ہے۔ Free Translation Tone (چھوٹی کامیابی/ناکامی کی بیپ) ڈیفالٹ میں آف ہے، Translation Settings میں خود آن کر سکتے ہیں۔
+-- وائس کمانڈز اور سیٹنگز --
+Voice Commands اب مین مینیو میں ہیں، A سے Z فہرست کے ساتھ۔ Settings میں Search Settings، Daily Typing Summary اور Read Current Settings نئے ہیں۔ AI Mode کی لائن اب فراہم کنندہ بھی بتاتی ہے، اور Back gesture ایک قدم پیچھے لے جاتا ہے۔
+وائس کیلکولیٹر نیا ہے (جمع، تفریق، ضرب، تقسیم، فیصد بول کر)۔ وقف کے نشانات کی کمانڈز اب 'symbol' لفظ کے ساتھ بھی چلتی ہیں۔
+History اسکرین پر Search نیا ہے۔ Update Now اب حقیقت میں نیا main.lua اتار کر خود اپ ڈیٹ کرتا ہے، اور Notice کا پورا نیا نظام ہے (ٹائٹل/قسم، تاریخیں، ہفتے کے دن، ورژن کی حد وغیرہ)۔
+مین مینیو کا پرانا 'About' بٹن ہٹا دیا گیا۔ About، Connect with Us اور Feedback اب Settings کے 'Connect & About' میں ہیں۔
+-- رومن اردو اسمارٹ ٹائپنگ --
+رومن اردو اور انگریزی ٹائپنگ میں بہت سی چیزیں خود درست ہوتی ہیں: اسلامی الفاظ کی صحیح ہجے، عام الفاظ کی یکساں ہجے، خودکار کیپیٹل (نام، مہینے، شہر وغیرہ)، ٹائٹلز کے بعد نام کیپیٹل، اور صحیح جگہ پر کوما۔
+ای میل/لنک کے ڈاٹ کے بعد غلط خالی جگہ کی غلطی ٹھیک ہو گئی۔
+-- اردو اور ہندی ٹائپنگ (دونوں زبانوں میں برابر) --
+جملے کے آخر میں صحیح علامت (اردو میں '۔'/'؟'، ہندی میں '।') اور سوال کی بہتر پہچان۔
+اردو/ہندی رسم الخط کی صفائی: غلط حروف، نقطے اور اضافی خالی جگہیں درست، اور الف مدہ جیسی غلطیاں (مثلاً 'اپ' اب 'آپ') ٹھیک ہوتی ہیں۔
+Settings میں دو نئے ٹوگل: 'English Words (Urdu/Hindi)' اور 'Number Words (Urdu/Hindi)' (دونوں ڈیفالٹ آن)۔ English Words آن ہو تو جو انگریزی الفاظ ریکگنائزر نے اردو/ہندی رسم الخط میں لکھ دیے ہوں (لفظ، ایپس، ٹیکنالوجی کی اصطلاحات وغیرہ، سنسکرت الفاظ سمیت) وہ واپس انگریزی میں آ جاتے ہیں۔ Number Words آن ہو تو اردو/ہندی کے نمبر کے الفاظ ('پانچ سو') ہندسے (500) بن جاتے ہیں۔
+اسی ٹوگل کے ساتھ بول کر ای میل، ویب سائٹ، فون نمبر، فیصد اور پیسے (Rs.) لکھنا بھی اردو/ہندی میں چلتا ہے۔
+My Info اور My Dictionary اب اردو/ہندی ٹائپنگ میں بھی کام کرتے ہیں۔
+-- ایموجی، پرائیویسی اور اسٹوریج --
+ایموجی کا نام بول کر سیدھا ٹائپ کریں ('fire emoji' وغیرہ)۔ اردو، ہندی اور رومن اردو تینوں میں چلتا ہے (ہندی میں بھی 293 ایموجی نام شامل ہیں)، اور M-نمبر ('M 95') بھی اردو/ہندی میں ('ایم 95'/'एम 95') اب کام کرتا ہے۔ 97 نئے ایموجیز بھی شامل ہیں۔
+My Info میں 'Private' انٹری: حساس چیزیں (شناختی کارڈ نمبر، اکاؤنٹ نمبر) ٹائپنگ میں چلتی ہیں مگر دکھائی نہیں دیتیں، اور بیک اپ/ایکسپورٹ میں نہیں جاتیں۔
+Settings > Storage Info: Private/Visible Storage کے سائز دیکھیں (اصل فولڈر کا راستہ نہیں دکھایا جاتا)، اور 'Clear Data' سے Session Log/Typing History/Statistics/Learning Log الگ الگ تصدیق کے ساتھ صاف کریں (Settings/My Info/My Dictionary کبھی نہیں چھوئی جاتیں)۔
+About MK Master Typing اب 2.1 کے تمام فیچرز کی فہرست بھی رکھتا ہے۔
+بنانے والے: ثناء خان اور موسیٰ خان۔ Where Every Idea Becomes Accessible. CSR with MK۔
+@@SECTION whatsnew_2_0
+MK Master Typing 2.0 - MK Master Typing 1.0 (2024) کے مقابلے میں:
+-- نام --
+'Master Typing' سے 'MK Master Typing' ہو گیا۔ نام اور فولڈر ہر جگہ بدل گئے۔
+-- رومن اردو ڈکشنری (سب سے بڑا فرق) --
+تلفظ درست کرنے والی ڈکشنری 1450 سے بڑھ کر اب 1816 الفاظ کی ہے۔ اس میں افعال، رشتوں کے نام، گھر کا سامان، موسم، جسم کے حصے، رنگ، سفر، پیسہ، صحت، دین اور عام جملے شامل ہیں۔
+اصلاح: پہلے بہت سی انٹریز (جیسے 'lete' سے 'laitay') صرف آخر میں خالی جگہ دیکھتی تھیں، اس لیے 'Delete' اور 'complete' جیسے انگریزی لفظوں کے اندر غلط طریقے سے میچ ہو جاتی تھیں۔ اب پوری ڈکشنری کی ہر انٹری میں مکمل اور درست لفظ کی حد کی جانچ ہے۔ کوئی انگریزی لفظ خراب نہیں ہوتا۔
+نیا: خودکار کیپیٹلائزیشن (پہلا لفظ، اور ہر فل اسٹاپ اور سوالیہ نشان کے بعد)۔
+نیا: جملے کے آخر میں خود بخود فل اسٹاپ یا سوالیہ نشان لگتا ہے (جملہ سوالیہ ہے یا نہیں، یہ سمجھ کر)۔ اگر جملہ پہلے ہی کسی علامت یا وقفے پر ختم ہو رہا ہو تو دوبارہ نہیں لگتا۔
+نیا: بولے گئے نمبر کے الفاظ خود بخود ہندسوں میں بدل جاتے ہیں (جیسے 'do hazaar chhabbis' سے '2026')۔ اگر صرف ایک اکیلا نمبر لفظ ہو ('ek din') تو وہ لفظ ہی رہتا ہے۔
+نیا: جگہ، ملک، دن اور مہینوں کے نام (خاص نام) خود بخود کیپیٹل ہوتے ہیں۔
+-- وائس کمانڈز (بالکل نئی چیز، کسی بھی موڈ سے، ٹیکسٹ باکس کے بغیر بھی) --
+'new line' اور 'new paragraph' جملے کے بیچ میں بھی کام کرتے ہیں۔
+'keep listening' / 'stop listening' - Continuous Listening آن/آف۔
+'undo last typing' - اب کئی درجوں والا ہے۔ لگاتار بولنے سے اور پیچھے جاتا ہے (اصل بولا ہوا خام متن دکھاتا ہے)۔
+'spell' - اکیلا بولیں، پھر اگلی بار ہر حرف الگ بولیں (جیسے 'M O O S A')۔ یقینی طور پر درست ہجے کے ساتھ ٹائپ ہوتا ہے۔ جملے کے حصے کے طور پر کام نہیں کرتا (غلطی سے چلنے سے بچاؤ)۔
+'phone number' کے بعد ہر ہندسہ الگ بولیں (انگریزی یا رومن اردو، جیسے 'zero three four two...')۔ 11 ہندسے ہوں تو معیاری پاکستانی موبائل فارمیٹ (XXXX-XXXXXXX) میں ٹائپ ہوتا ہے۔
+'read current text'، 'repeat last typed'، 'mk master typing switch' (رومن اردو/انگریزی کے درمیان)، 'show my info'، 'show my dictionary' (مینیو سیدھا کھول دیتے ہیں، ٹیکسٹ باکس سے بھی)۔
+ان تمام کمانڈز (سوائے new line/paragraph کے) کو صرف تب چلنا ہے جب پورا جملہ صرف وہی کمانڈ ہو۔ کسی بڑے جملے کے حصے کے طور پر بولنے سے عام ٹائپنگ ہی ہوتی ہے۔
+-- اسمارٹ فارمیٹنگ (بالکل نئی چیز) --
+کرنسی: '500 rupay' سے 'Rs. 500'۔
+تاریخ: '15 September 2026' سے '15, September, 2026'۔
+وقت: 'teen baje' سے '3:00'، 'saadhe teen baje' سے '3:30'، 'sawa char baje' سے '4:15'، 'paune teen baje' سے '2:45'، 'derh baje' سے '1:30'، 'dhai baje' سے '2:30'۔
+فیصد: '50 percent' سے '50%'۔
+ای میل: 'musa at gmail dot com' سے 'musa@gmail.com' (صرف تب جب فراہم کنندہ اور TLD دونوں پہچانے گئے ہوں، جیسے gmail/yahoo اور com/org۔ ورنہ عام جملہ ہی رہتا ہے)۔
+نمبر والی فہرستیں: جملے کی ابتدا میں 'number one'، 'number two' بولنے سے بلٹ (•) اور ہندسہ لگ جاتا ہے (جیسے 'number one I live in Karachi' سے '•1, I live in Karachi.')۔
+برانڈ کے نام اپنی صحیح کیپیٹلائزیشن کے ساتھ: WhatsApp، YouTube، iPhone، PayPal، TikTok، LinkedIn، GitHub وغیرہ۔
+-- علامتوں کی کمانڈز --
+نئی علامتیں شامل ہوئیں: semicolon، forward slash، apostrophe، tilde، caret، dash۔ سب '...symbol' بول کر (جیسے 'semicolon symbol')۔
+اصلاح: 'backslash'/'backlash' پہلے 'symbol' کے بغیر بھی چل جاتے تھے (جس سے اصل لفظ 'backlash' غلط ٹائپ ہو سکتا تھا)۔ اب یہ بھی '...symbol' مانگتے ہیں۔
+-- MY INFO (بالکل نئی چیز) --
+اپنی ذاتی معلومات (نام، فون نمبر، پتہ، ای میل وغیرہ) محفوظ کریں۔ جو بھی جملہ بولیں، وہی ٹائپ ہو جائے۔ Add/Edit/Delete، Export/Import (تصدیق کے ساتھ، کیونکہ اس میں حساس معلومات ہو سکتی ہیں)، اور Clear All سب شامل ہیں۔
+-- MY DICTIONARY (بالکل نئی چیز) --
+اپنی الفاظ بدلنے کی انٹریز خود بنائیں۔ Add/Edit/Search/Delete، Export/Import (ٹکراؤ کی جانچ کے ساتھ)، اور الگ الگ پروفائلز (جیسے Work/Personal) کے درمیان سوئچ کرنا۔
+Learning Suggestions: جب بھی آپ 'undo last typing' سے کسی لفظ کو بار بار درست کریں، ایکسٹینشن خود یاد رکھتی ہے اور My Dictionary > Suggestions میں اس لفظ کو ڈکشنری میں شامل کرنے کا آپشن دیتی ہے۔
+-- TEXT EDITOR (بالکل نیا، پہلے 'Text Tools') --
+کوئی بھی متن پیسٹ کریں یا بول کر لکھیں۔ مفت آپریشنز جو ابھی فعال ہیں: Read Aloud، Word/Character/Line Count، Remove Links، Remove Emojis، Remove Hashtags & Mentions، Clean Everything، Undo Last Operation۔
+AI آپریشنز (Fix Grammar، Translate to English، Ask AI، AI Action) کے لیے Gemini API Keys چاہییں (Settings سے شامل کریں)۔
+-- مینیو سسٹم (مکمل طور پر نئے سرے سے ترتیب) --
+My Info، My Dictionary، Text Editor، Settings، Quick Favorite، Typing Mode، سب ایک نئے منظم مین مینیو میں (پرانا 'Special Commands'/فوری کاموں والا نظام بدل گیا)۔
+Typing Mode میں: زبان بدلنا، Emoji Mood، Keep Listening، Quiet Mode، Vibration۔
+Settings میں: What's New، Statistics (کل الفاظ/ٹائپنگ کی باریاں/پہلی بار کب استعمال کیا)، AI Provider (Gemini یا Claude، ایک وقت میں صرف ایک)، Gemini API Keys، Claude API Key (ادائیگی والی، اختیاری، صرف ایک)، Claude Model (Haiku/Sonnet/Opus)، Backup Everything / Restore from Backup (My Info سمیت)، Reset to Defaults (صرف Typing Mode کے ٹوگلز، کوئی ڈیٹا نہیں چھوتا)۔
+Welcome Tour: ایکسٹینشن پہلی بار استعمال کرنے پر ایک چھوٹا سا ٹور، اور About سیکشن میں ہر فیچر کی تفصیل۔
+-- ڈکشنری کی اصلاحات (بالکل نئی چیز) --
+غائب نمبر کے الفاظ شامل ہوئے: 27 (sattais)، 28 (atthais)، 29 (unatees)، 31 (iktees)۔ سال درست لکھنے کے لیے یہ ضروری تھے۔
+'Musa'/'Mousa' کی شکلیں 'Moosa' میں بدلتی ہیں (اور 'Musa Khan'/'Mousa Khan' سے 'Moosa Khan')۔
+بڑی اصلاح: پوری ڈکشنری کا آڈٹ کیا۔ 53 عام روزمرہ الفاظ (جیسے 'gane'، 'jab'، 'kamre'، 'manjil'، 'sabko') غلطی سے ہمیشہ بڑے حرف سے ٹائپ ہو رہے تھے، چاہے جملے کے بیچ میں ہوں۔ اب صرف جملے کی ابتدا میں بڑا حرف آتا ہے، جیسا ہونا چاہیے۔ نام/برانڈ کے نام/اسلامی الفاظ/سلام و دعا جیسی اصل خاص ناموں والی انٹریز (جو ہمیشہ بڑے حرف سے ہونی چاہییں) کو ہاتھ نہیں لگایا۔
+اصلاح: ہندی الاصل کچھ دہرائے ہوئے جملے (جیسے 'dheere-dheere'، 'bar-bar'، 'kaun-kaun') ریکگنائزر کبھی کبھی دیوناگری رسم الخط میں بھیج دیتا تھا، چاہے ہم ہمیشہ 'en-US' مانگتے ہیں۔ اب ایسے 29 عام جوڑے خود بخود رومن اردو میں بدل جاتے ہیں۔
+اسلامی القابات: 'Rahmatullah' کی 3 مختلف غلط ہجے درست کی گئیں، 'Radi Allahu Ta'ala Anha/Anho' بھی۔
+جملے کی ابتدا میں 'Hi' ہمیشہ انگریزی سلام سمجھا جاتا ہے (جیسے 'Hi kaise ho' سے 'Hi kaisay ho')، بیچ میں آئے تو پرانا اصول چلتا ہے۔
+-- پردے کے پیچھے (بالکل نئی چیز) --
+مینیو کھلنے پر ایک چھوٹا Update Check خود بخود چلتا ہے (20 سیکنڈ کے حفاظتی وقفے کے ساتھ، تاکہ کبھی اٹکے نہیں)۔ اگر نیا ورژن دستیاب ہو تو بتا دیتا ہے، ورنہ کچھ نہیں دکھاتا۔ آپ خود بھی کبھی بھی Settings > Check for Update سے دستی طور پر چیک کر سکتے ہیں۔
+آپ کی Settings، My Info اور My Dictionary کا ڈیٹا اب ایک محفوظ، نجی جگہ پر محفوظ ہوتا ہے۔ اگر کبھی 'MK Master Typing' والا فولڈر ڈیلیٹ ہو جائے (جیسے کسی دوسری ایپ سے صفائی کرتے وقت)، آپ کا ڈیٹا پھر بھی محفوظ رہتا ہے۔ وہ فولڈر اب صرف تب بھرتا ہے جب آپ خود Export، Backup یا Session Log Export کریں۔
+نیا آپشن: Settings > Export Session Log۔ اندرونی سیشن لاگ کو بھی بیک اپ کی طرح ایکسپورٹ/شیئر کر سکتے ہیں۔
+-- SPECIAL COMMANDS (1.0 سے موجود تھے، 2.0 میں مکمل آڈٹ اور اصلاح) --
+بڑی اصلاح: جن ڈکشنری انٹریز میں ہندسہ ہو (جیسے 'j1'، 'M 01') وہ پہلے صرف چھوٹے حروف میں میچ ہوتی تھیں۔ 'J1'/'M 01' (جو ریکگنائزر اکثر پہلا لفظ بڑا کر کے دیتا ہے) کام نہیں کرتا تھا۔ اب یہ سب باقی ڈکشنری کی طرح حروف کی بڑائی چھوٹائی سے آزاد ہیں۔
+اسی اصلاح سے ٹھیک ہوئے: اسکرین ریڈر کے نام (J1/J2/J3)، تمام سلام و دعا/معذرت کے جملے (01-10)، اور تمام ایموجی شارٹ کٹ۔
+ایموجیز 73 سے بڑھ کر اب 200 ہیں۔ تاثرات، ہاتھ/اشاروں، لوگوں، جانوروں، کھانے، کھیلوں، موسم، اور سفر/چیزوں کے نئے شارٹ کٹ۔ About میں ہر نمبر کی تفصیل موجود ہے۔
+ملکوں کے جھنڈے 33 سے بڑھ کر اب 105 ہیں۔ مشہور ملکوں (ترکی، اٹلی، روس، عراق، نائجیریا، میکسیکو، تھائی لینڈ، یوکرین وغیرہ) کے جھنڈے شامل ہوئے۔
+علامتوں کی ریفرنس لسٹ درست کی گئی۔ پہلے 'comma'، 'colon' جیسے سادہ نام دکھاتی تھی جو کبھی کام ہی نہیں کرتے تھے (اصل کمانڈ ہمیشہ '...symbol' مانگتی ہے)۔ اب صحیح نام دکھاتی ہے۔
+CSR with MK اور MK International Stadium کے تمام لنکس (WhatsApp، Telegram، YouTube، Drive، ای میل، یوزر نیم، پلے لسٹس، 27 کمانڈز) ایک الگ، محفوظ ٹیبل میں ہیں۔ ہمیشہ بالکل ویسے ہی، کلک ہونے والے پیسٹ ہوتے ہیں، اور عام جملے کی صفائی (فل اسٹاپ/کیپیٹلائزیشن) سے کبھی خراب نہیں ہوتے۔
+150 سے زیادہ پرانے انفرادی ویڈیو لنکس کا حوالہ بھی ہٹا دیا گیا (جو پہلے ضم کرتے وقت رہ گئے تھے)۔ اب صرف وہی کمانڈز نظر آتی ہیں جو واقعی کام کرتی ہیں۔
+-- یوزر انٹرفیس کی بہتری --
+ہر ذیلی مینیو (Settings، My Info، My Dictionary، Typing Mode، Text Editor) کھلتے ہی اپنا نام بولتا ہے۔ فوراً پتہ چل جاتا ہے کہ آپ کہاں ہیں۔
+My Info/My Dictionary خالی ہوں تو پہلی بار کھلتے وقت ایک چھوٹی سی ہدایت ملتی ہے ('Add Info'/'Add Word' سے شروع کریں)۔
+پوری ایپ میں 'واپس جانے' والے بٹن کا نام یکساں کر دیا گیا۔ ہمیشہ 'Go Back'، کہیں 'Back' اور کہیں 'Exit' نہیں۔
+Settings کے ٹائٹل/اعلان میں اب موجودہ Typing Mode اور Dictionary Profile کا مختصر خلاصہ دکھایا جاتا ہے (جیسے 'Roman Urdu | Personal Profile')۔
+AI Mode، Translation (Source اور Target دونوں زبانیں منتخب کی جا سکتی ہیں) اور Emoji Mood کے لیے Gemini API Keys چاہییں (Settings سے شامل کریں، 5 تک keys محفوظ کی جا سکتی ہیں)۔ دونوں AI Typing Mode اور Text Editor میں دستیاب ہیں۔
+-- نئی زبانیں --
+اردو (نستعلیق) اور ہندی (دیوناگری): اپنے اصل رسم الخط میں سیدھی ٹائپنگ۔ AI Mode کے ساتھ گرامر/وقف کے نشانات بھی درست ہوتے ہیں۔
+Language مینیو 68 اور زبانیں بھی دیتا ہے (فرانسیسی، ہسپانوی، عربی، چینی، جاپانی وغیرہ)۔ اوپر Search بھی ہے، اور پوری فہرست سیدھی اسکرول کر کے بھی مل جاتی ہے۔
+-- TRANSLATION SETTINGS --
+Source Language اور Target Language دونوں الگ الگ سیٹ کی جا سکتی ہیں (ڈیفالٹ اردو سے انگریزی ہے، لیکن ہندی سے انگریزی، یا عربی سے کوئی اور زبان بھی سیٹ کر سکتے ہیں)۔ Typing Mode کی زبان سے بالکل آزاد۔
+-- AI MODE --
+ایموجی، اردو اور ہندی متن Gemini کے ساتھ مکمل طور پر درست کام کرتا ہے۔
+5 تک Gemini API Keys محفوظ کی جا سکتی ہیں۔ ایک کا کوٹا ختم ہو تو خود بخود اگلی آزمائی جاتی ہے (مفت درجے کی حد کئی گنا بڑھ جاتی ہے)۔ API Key بنانے کا پورا طریقہ Settings > Gemini API Keys پر موجود ہے۔ اگر آپ کے پاس ادائیگی والی Claude key ہے تو Settings > AI Provider سے Claude پر جا سکتے ہیں (ڈیفالٹ Gemini ہے)۔
+کوئی بھی AI ایرر ٹیکسٹ باکس میں نہیں آتا، ایک الگ ڈائیلاگ باکس میں صاف دکھایا جاتا ہے۔
+-- EMOJI MOOD --
+AI ہر جملے کا مطلب سمجھ کر صحیح جگہ ایموجی لگاتا ہے۔
+3 درجے: Low (بہت کم)، Medium، High (ہر جملے میں)۔ Typing Mode میں بدلتے رہتے ہیں۔
+-- HISTORY --
+Settings > History: ہر ٹائپنگ کی باری (جو بولا، جو ٹائپ ہوا) محفوظ رہتی ہے۔ Favorite نشان زد کر سکتے ہیں (جو کبھی ڈیلیٹ نہیں ہوتی)، Copy/Delete بھی۔
+نئی وائس کمانڈ: 'search emoji [لفظ]'۔ 200 ایموجیز میں سے ڈھونڈ کر نمبر بتا دیتی ہے۔
+-- حفاظت اور بھروسا --
+کریش سے بچاؤ کا گارڈ: اگر اشارہ (gesture) جلدی جلدی بار بار چل جائے (سینسر کے ہلنے سے)، تو ایکسٹینشن خود سنبھال لیتی ہے۔ کریش نہیں ہوتا۔
+Settings اینڈرائیڈ کی اپنی محفوظ SharedPreferences میں محفوظ ہوتی ہیں۔
+Backup Everything تمام محفوظ API keys کو بھی محفوظ رکھتا ہے (وہ بیک اپ کی فائل میں کبھی نہیں جاتیں)۔
+بنانے والے: ثناء خان اور موسیٰ خان۔ Where Every Idea Becomes Accessible. CSR with MK۔
+@@SECTION whatsnew_1_0
+Master Typing 1.0 (15 October 2024):
+رومن اردو، اردو (نستعلیق)، ہندی (دیوناگری)، انگریزی اور 68 سے زیادہ دوسری زبانوں کی وائس ٹائپنگ ایکسٹینشن، جو اسکرین ریڈر کے ٹیکسٹ باکس میں بول کر لکھنے دیتی ہے۔ ساتھ میں تلفظ درست کرنے والی ڈکشنری (تقریباً 600 الفاظ، رومن اردو کے لیے)۔
+مینیو سسٹم پہلے سے موجود تھا (جب ٹیکسٹ باکس نہ ہو): Dialog + GridView، یوٹیوب کورس پلے لسٹس کے لنکس، Download Extensions، اور فوری کام (Accessibility Settings، بلوٹوتھ ٹوگل، موجودہ تاریخ دیکھنا، موجودہ درجۂ حرارت دیکھنا، تصویر کی وضاحت)۔
+'Special Commands' کا زمرہ سسٹم پہلے سے موجود تھا: اسکرین ریڈر کے نام (J1/J2/J3 جیسے مختصر کوڈ)، گرم جوش سلام و دعا، معذرت کے جملے، ملکوں کے جھنڈے، ایموجیز (73 شارٹ کٹ)، علامتیں، اور CSR with MK کا مواد اور پلیٹ فارمز (لنکس)۔
+About سیکشن پہلے سے موجود تھا: About Master Typing، About CSR with MK، About Feedback۔ فیڈ بیک واٹس ایپ کے ذریعے پہلے سے لکھے ہوئے پیغام کے ساتھ بھیجا جا سکتا تھا۔
+بنیادی علامتوں کی کمانڈز موجود تھیں (کوما، کولن، ایٹ، ہیش، اسٹار، ڈالر، روپیہ، بیک سلیش، بریکٹس، کوٹ وغیرہ)، لیکن لفظ کی حد اور ناموں کی ترتیب ابھی ویسی بہتر نہیں تھی جیسی 2.0 میں ہے۔
+ذاتی معلومات اور لنک تلاش کرنے والے جملے موجود تھے (جیسے 'my email id'، 'my mobile number'، 'my full address'، یوٹیوب پلے لسٹ کے لنکس وغیرہ)، لیکن My Info/My Dictionary جیسا منظم نظام نہیں تھا۔ سب کچھ اسی بڑی ڈکشنری میں لکھا ہوا تھا۔
+سیکیورٹی نوٹ: اس ورژن میں ایک 'Actions' مینیو آئٹم تھا جو ایک چھپا ہوا (انکرپٹڈ) کوڈ بلاک چلاتا تھا۔ اس کا مواد جانچا نہیں جا سکتا تھا، اس لیے 2.0 بناتے وقت اسے مکمل طور پر ہٹا دیا گیا۔
+بنانے والے: ثناء خان اور موسیٰ خان۔ Where Every Idea Becomes Accessible. CSR with MK۔
+@@SECTION about
+MK Master Typing میں خوش آمدید، ورژن {VERSION} ({DATE})۔
+بنانے والے: ثناء خان اور موسیٰ خان۔ Where Every Idea Becomes Accessible. CSR with MK۔
+MK Master Typing کمنٹری اسکرین ریڈر کی ایک ایکسٹینشن ہے جس سے آپ آواز کے ذریعے ٹائپنگ کر سکتے ہیں، اور آواز سے ہی بہت سا دوسرا کام بھی۔
+-- زبانیں اور TYPING MODES --
+رومن اردو (ڈیفالٹ)، انگریزی، اردو (نستعلیق، اپنا اصل رسم الخط)، ہندی (دیوناگری، اپنا اصل رسم الخط)، اور 68 دوسری زبانیں (فرانسیسی، ہسپانوی، عربی، چینی وغیرہ)۔ Typing Mode > Language سے چنیں، اوپر Search بھی ہے۔
+Quick Favorite: مین مینیو کا ایک آئٹم، خود بخود اگلی زبان پر گھومتا ہے (ڈیفالٹ: رومن اردو، اردو، ہندی، انگریزی)۔ 'switch language' اور 'mk master typing switch' وائس کمانڈز بھی اسی فہرست میں گھومتی ہیں۔ Typing Mode > Quick Favorite سے 6 سلاٹس تک زبانیں خود چن سکتے ہیں (کم از کم 2 ضروری ہیں)۔
+-- AI MODE، EMOJI MOOD، TRANSLATION --
+AI Mode: AI (Gemini یا Claude، Settings > AI Provider سے چنیں، ایک وقت میں صرف ایک) گرامر/وقف کے نشانات/جملے کی ساخت بہتر کرتا ہے۔ Gemini key یا Claude key چاہیے (Settings سے شامل کریں)۔ دھیان رہے: AI Mode یا Translation آن ہو تو آپ کا بولا ہوا متن اس فراہم کنندہ (Google یا Anthropic) کو بھیجا جاتا ہے۔ جو متن بھیجنا نہیں چاہتے اس کے لیے AI Mode آف رکھیں۔
+Emoji Mood: AI Mode آن ہو تو ہر جملے کے معنی کے مطابق خود ایموجی لگاتا ہے۔ 4 درجے (Off/Low/Medium/High)، Typing Mode میں بدلتے رہتے ہیں۔
+Translation Settings: Source Language اور Target Language دونوں الگ الگ سیٹ کی جا سکتی ہیں (ڈیفالٹ اردو سے انگریزی)۔ Typing Mode کی زبان سے بالکل آزاد۔
+-- رومن اردو اسمارٹ ٹائپنگ (2.1) --
+اسلامی الفاظ کی صحیح ہجے خود لگتی ہے (Assalamu Alaikum، Insha-Allah، Jazak-Allah وغیرہ)۔
+کیپیٹل خود لگتا ہے: اللہ، قرآن، مہینے، شہر/ملک، ہفتے کے دن، اور عام پاکستانی ناموں کے لیے۔
+ٹائٹلز کے بعد نام کیپیٹل ہوتا ہے (Dr.، Mr.، Hazrat وغیرہ)، اور برانڈز/بینک/مخففات بھی صحیح شکل میں آتے ہیں۔
+عام الفاظ کی یکساں ہجے، اور صحیح جگہ پر خود بخود کوما لگتا ہے۔
+Time Style اور Digits (Western/Native) اب Typing Mode سے چن سکتے ہیں۔
+اردو اور ہندی میں جملے کے آخر میں صحیح علامت خود لگتی ہے (Sentence Ending سیٹنگ کے مطابق)۔
+-- اردو / ہندی، ایموجی، پرائیویسی (2.1) --
+My Info کی Private انٹریز (2.1): Add/Edit Info میں 'Private' پر ٹک کریں۔ ٹائپنگ عام چلتی ہے، لیکن قیمت چھپی رہتی ہے اور بیک اپ/ایکسپورٹ میں نہیں جاتی۔
+اردو/ہندی میں انگریزی الفاظ (2.1): جو انگریزی لفظ ریکگنائزر اردو/ہندی رسم الخط میں لکھ دے، وہ واپس انگریزی میں آ جاتا ہے (اس کے لیے مین مینیو > Download Dictionaries سے اردو/ہندی ڈکشنری ڈاؤن لوڈ ہونی چاہیے)۔ My Dictionary اب اردو/ہندی میں بھی کام کرتا ہے۔
+اردو اور ہندی کی صفائی (2.1): رسم الخط کی غلطیاں اور علامتوں کی خالی جگہ خود ٹھیک ہو جاتی ہے، AI اور انٹرنیٹ کے بغیر بھی۔
+ایموجی نام بول کر (2.1): کسی بھی ایموجی کا نام بولیں تو سیدھا ٹائپ ہو جاتا ہے (Emoji and Flags ڈکشنری ڈاؤن لوڈ ہونی چاہیے)۔
+Storage Info (2.1): Settings > Storage Info میں دیکھیں کہ فائلیں کہاں ہیں اور کتنی بڑی ہیں۔
+-- 2.2 میں نیا --
+Download Dictionaries (مین مینیو): اردو، ہندی اور Emoji and Flags ڈکشنریاں الگ سے ڈاؤن لوڈ ہوتی ہیں، اور نئی ڈکشنری آنے پر وہیں 'Update available' لکھا آتا ہے۔ ٹیپ کرنے سے صرف ڈکشنری اپ ڈیٹ ہوتی ہے، پوری ایکسٹینشن نہیں۔ رومن اردو کی ڈکشنری خود بخود خاموشی سے ڈاؤن لوڈ ہو جاتی ہے۔
+Info Language (Settings): What's New اور About MK Master Typing کو رومن اردو، انگریزی، اردو یا ہندی میں پڑھیں۔ یہ متن پہلی بار مین مینیو کھلتے ہی انٹرنیٹ سے خود بخود ڈاؤن لوڈ ہوتا ہے۔ Factory Reset انہیں مٹا دیتا ہے، اور اگلی بار خود دوبارہ ڈاؤن لوڈ ہو جاتے ہیں۔
+Send Dictionary to Developer (My Dictionary): اپنی My Dictionary کی انٹریز پہلے دیکھ کر ڈویلپر کی واٹس ایپ چیٹ میں بھیج سکتے ہیں۔ بھیجنا آپ کے ہاتھ میں ہے، My Info کبھی نہیں بھیجی جاتی۔
+Send Report to Developer (Settings > Reports & Info): کوئی مسئلہ ہو تو مختصر تکنیکی رپورٹ (ورژن، اینڈرائیڈ اور فون کا ماڈل، سیٹنگز کی آن/آف حالت، ڈکشنریوں کی صورتِ حال) واٹس ایپ میں کھل جاتی ہے۔ API keys، My Info، My Dictionary کے الفاظ، History اور ٹائپ کیا ہوا متن اس میں کبھی شامل نہیں ہوتا۔
+اردو ہجے کی صفائی: ریکگنائزر جو 'آ' (مدہ) چھوڑ دیتا ہے وہ واپس لگ جاتا ہے، اور 'ں' والی جمع ٹھیک ہوتی ہے۔ اردو ڈکشنری میں اسلامی الفاظ (جیسے 'انشاء اللہ') بھی ٹھیک ہو جاتے ہیں۔
+Quran اور Hadees (ٹیسٹنگ، شروع میں آف): Settings > Quran aur Hadees (In Testing)۔ Quran میں عربی آیت، ترجمہ اور تشریح میں سے جو چاہیں چنیں (کم از کم ایک ضروری ہے)۔ Hadees میں صحیح بخاری کا عربی اور اردو ترجمہ۔ سب کچھ سیدھا مستند ویب سائٹس سے، بغیر کسی تبدیلی کے ٹائپ ہوتا ہے۔ انٹرنیٹ ضروری ہے۔
+'Quran surah number 55 ayat number 10' یا 'Quran surah Rahman ayat number 10' (Quran آن ہو) وہ آیت ٹائپ کرتا ہے۔ 'Sahih Bukhari hadees number 50' (Hadees آن ہو) وہ حدیث ٹائپ کرتا ہے۔ یہ کمانڈز تب ہی چلتی ہیں جب پورا جملہ صرف وہی ہو۔
+Typing Mode کی 'Offline Recognition' سیٹنگ مکمل طور پر ہٹا دی گئی ہے۔
+-- وائس کمانڈز (کسی بھی موڈ سے، ٹیکسٹ باکس کے بغیر بھی) --
+'new line' اور 'new paragraph' کے علاوہ، یہ تمام کمانڈز صرف تب کام کرتی ہیں جب پورا جملہ صرف وہی کمانڈ ہو۔ کسی بڑے جملے کے حصے کے طور پر بولنے سے وہ عام ٹائپنگ سمجھی جائے گی، کمانڈ نہیں۔
+'new line': نئی لائن شروع کرتا ہے۔
+'new paragraph': نیا پیراگراف شروع کرتا ہے (دو خالی لائنیں)۔
+'keep listening': Continuous Listening آن کرتا ہے۔
+'stop listening': Continuous Listening کو فوراً روک دیتا ہے۔
+'undo last typing': پچھلا ٹائپ کیا ہوا لفظ/جملہ واپس لیتا ہے۔ لگاتار بولنے سے اور پیچھے جاتا ہے۔
+'spell': اگلی بار ہر حرف الگ بول کر صحیح ہجے کے ساتھ ٹائپ کریں۔
+'phone number' کے بعد ہندسہ بہ ہندسہ بولنے سے معیاری پاکستانی موبائل فارمیٹ میں ٹائپ ہوتا ہے۔
+'search emoji [لفظ]': ایموجیز میں سے ڈھونڈ کر M-نمبر بتا دیتا ہے (297 نمبر والے ایموجیز، Emoji ڈکشنری چاہیے)۔
+لنک کمانڈز: CSR with MK کے لنکس بالکل ویسے ہی پیسٹ ہوتے ہیں، کسی پروسیسنگ کے بغیر۔
+جملے کی ابتدا میں 'number one'، 'number two' وغیرہ بولیں تو بلٹ لسٹ بنتی ہے۔
+وقف کے نشانات بول کر ٹائپ کریں ('symbol' لفظ کے ساتھ، یا اردو/ہندی میں سیدھا)۔
+وائس کیلکولیٹر نیا ہے (2.1): جمع، تفریق، ضرب، تقسیم اور فیصد، نمبر بول کر بھی۔
+'read current text': ٹیکسٹ باکس کا پورا متن پڑھ کر سناتا ہے۔
+'repeat last typed': آخری ٹائپ کی ہوئی چیز دوبارہ بولتا ہے۔
+'switch language' (یا 'mk master typing switch'): Typing Mode > Quick Favorite میں جو زبانیں سیٹ ہوں، انہی کے درمیان اگلی زبان پر لے جاتا ہے (یہی فہرست مین مینیو کے 'Quick Favorite' ٹیپ سے بھی چلتی ہے)۔
+'switch translation' (یا 'free translation'): Free Translation کو آن/آف کرتا ہے، کسی بھی ٹائپنگ موڈ (رومن اردو، انگریزی، اردو، ہندی) سے چلتا ہے۔ آن کرنے پر AI Translation خود آف ہو جاتی ہے۔
+-- MY DICTIONARY --
+اپنی الفاظ بدلنے کی انٹریز خود بنائیں: Add Word، My Entries (تلاش کے ساتھ، ایڈٹ/ڈیلیٹ)، Export/Import، استعمال کی گنتی، کیس سینسیٹو آپشن، Clear All، خودکار بیک اپ۔
+Profiles: الگ الگ ڈکشنریوں (جیسے Work اور Personal) کے درمیان Switch Profile سے سوئچ کریں، Manage Profiles سے نئی بنائیں یا ڈیلیٹ کریں۔
+-- MY INFO --
+اپنی ذاتی معلومات (نام، فون نمبر، پتہ، ای میل وغیرہ) محفوظ کریں۔ جو بھی جملہ بولیں وہی ٹائپ ہو جائے۔ جیسے 'my phone number' بولنے پر آپ کا محفوظ کیا ہوا نمبر سیدھا ٹائپ ہو جائے گا۔ My Dictionary سے الگ ہے: یہ بالکل درست قیمتوں کے لیے ہے، تلفظ درست کرنے کے لیے نہیں۔
+-- TEXT EDITOR --
+کوئی بھی متن پیسٹ کریں یا بول کر لکھیں۔ مفت آپریشنز: Read Aloud، Word/Character/Line Count (لائیو دکھتا ہے)، Remove Links، Remove Emojis، Remove Hashtags & Mentions، Clean Everything، Undo Last Operation۔
+AI آپریشنز (Fix Grammar، Translate to English، Ask AI، AI Action): Gemini API Keys چاہییں (Settings سے شامل کریں)۔
+-- SETTINGS --
+AI Provider (Settings): Gemini یا Claude۔ Claude (Anthropic) ادائیگی والا ہے۔ Settings > Claude API Key میں صرف ایک key شامل ہوتی ہے (key بنانے کا مختصر طریقہ وہیں لکھا ہے)، اور Settings > Claude Model سے Haiku (سب سے سستا، ڈیفالٹ)، Sonnet، یا Opus چن سکتے ہیں۔ Gemini کے لیے Settings > Gemini Model۔ Claude key کے بغیر Claude پر سوئچ نہیں ہوتا۔
+Gemini API Keys (1 سے 5 تک): AI Mode، Translation، Emoji Mood، اور Text Editor کی AI آپریشنز کے لیے ضروری ہیں۔ ایک سے زیادہ مفت keys محفوظ کریں تو کوٹا ختم ہوتے ہی خود بخود اگلی key آزمائی جاتی ہے۔ پورا طریقہ اسی اسکرین پر موجود ہے۔
+History: ہر ٹائپنگ کی باری (جو بولا، جو ٹائپ ہوا) محفوظ رہتی ہے، Favorite نشان زد کر سکتے ہیں (کبھی ڈیلیٹ نہیں ہوتی)، Copy/Delete بھی۔ History میں Search بٹن سے کوئی بھی لفظ ڈھونڈ سکتے ہیں۔
+Settings میں Search Settings (کوئی بھی سیٹنگ نام سے ڈھونڈیں)، Daily Typing Summary (پچھلے 7 دن کے الفاظ)، Read Current Settings (ساری سیٹنگز ایک جگہ پڑھ کر سناتا ہے)، اور Statistics (Claude requests/tokens سمیت)۔
+Back gesture یا Back بٹن ایک قدم پیچھے لے جاتا ہے۔
+Connect & About (Settings میں Search Settings کے بعد): About، Connect with Us (WhatsApp community، YouTube، Telegram، Google Drive، Contact)، اور Feedback۔
+Check for Update (Settings): نیا ورژن ہو تو 'Update Now' GitHub سے نیا main.lua اتار کر خود بدل دیتا ہے (پرانی فائل main.lua.bak میں محفوظ رہتی ہے)۔ بس ایکسٹینشن بند کر کے دوبارہ چلائیں۔ کبھی کبھی مینیو کھلتے وقت ڈویلپر کا نیا Notice بھی آ سکتا ہے۔
+What's New یہاں دیکھ سکتے ہیں، اور Backup Everything / Restore from Backup سے پورے ڈیٹا کا بیک اپ رکھ سکتے ہیں (API keys کبھی بیک اپ میں نہیں جاتیں)۔
+Reset to Defaults (Settings): دو طرح کا ہے۔ 'Typing Settings Only' صرف Typing Mode کی سیٹنگز واپس ڈیفالٹ پر لاتا ہے، باقی ڈیٹا (My Dictionary، My Info، History، keys) نہیں چھوتا۔ 'Factory Reset - Delete Everything' یہ سب مٹا دیتا ہے: Settings، API keys، My Dictionary کے تمام پروفائلز اور انٹریز، My Info (پرائیویٹ بھی)، History، Statistics، Session Log، Learning Log، اور Notice/Welcome Tour کا ریکارڈ۔ ایکسٹینشن بالکل نئی انسٹال کی طرح ہو جاتی ہے، اور یہ واپس نہیں ہو سکتا۔ پہلے Backup Everything کر لینا بہتر ہے۔ Factory Reset ڈاؤن لوڈ کی ہوئی ڈکشنریوں کو نہیں مٹاتا۔
+ڈاؤن لوڈ کی ہوئی ڈکشنریاں ہٹانے کے لیے: مین مینیو > Download Dictionaries > Delete Downloaded Dictionaries۔ اس سے صرف اردو، ہندی اور Emoji ڈکشنری ہٹتی ہیں، آپ کی My Dictionary اور My Info نہیں چھوئی جاتیں۔ دوبارہ کبھی بھی Download Dictionaries سے ڈاؤن لوڈ ہو سکتی ہیں۔
+-- ACCESSIBILITY اور دوسری سیٹنگز --
+Start Prompt (سننا شروع ہونے پر: Speak and Beep / Beep only)، Sentence Ending (جملے کے آخر میں فل اسٹاپ/خالی جگہ/نئی لائن وغیرہ، فہرست میں سے چنیں)، Quick Favorite (6 سلاٹس تک کوئی بھی زبان، کم از کم 2 ضروری۔ 'switch language'، 'mk master typing switch' اور مین مینیو کا ٹیپ تینوں اسی فہرست میں گھومتے ہیں)، Vibration آن/آف، Session log (کریش سے محفوظ مسلسل ریکارڈ)۔
+استعمال کا طریقہ: جب اسکرین پر ٹیکسٹ باکس ہو تو MK Master Typing چلائیں اور بولیں۔ وہی لکھا جائے گا۔ جب ٹیکسٹ باکس نہ ہو تو یہ مینیو کھلتا ہے جس کا ابھی ذکر ہوا۔
+مین مینیو میں نیچے صرف Exit بٹن ہے۔ Connect & About اب Settings میں Search Settings کے بعد دوسرا آئٹم ہے (جہاں آپ ابھی ہیں): About MK Master Typing، About CSR with MK، Connect with Us (WhatsApp community، YouTube channel، Telegram community، Google Drive resources، WhatsApp پر Contact Us)، اور About Feedback۔
+مین مینیو کے Voice Commands آئٹم میں A سے Z فہرست، اسکرین ریڈر کے نام، سلام و دعا، معذرت کے جملے، ملکوں کے جھنڈے، ایموجیز، علامتیں، اور CSR with MK کے لنکس جیسے زمرے ہیں۔ ان کی تفصیل وہیں دیکھ سکتے ہیں۔
+MK Master Typing اپ ڈیٹ کرنے کے لیے: Jieshuo settings > Download additional resources > Extensions > کی ورڈ میں 'CSRwithMK' لکھیں (بغیر خالی جگہ کے)۔
+بہت شکریہ۔ MK Master Typing کا لطف اٹھائیں!
+
+@@LANG hindi
+@@SECTION whatsnew_2_2
+MK Master Typing 2.2 - MK Master Typing {PREVIOUS} की तुलना में:
+नया: My Dictionary > Send Dictionary to Developer। अपनी My Dictionary की एंट्री पहले प्रीव्यू में देखें, फिर Send दबाएँ। डेवलपर की व्हाट्सऐप चैट खुल जाती है और टेक्स्ट पहले से लिखा होता है, बस व्हाट्सऐप का सेंड दबाना है (व्हाट्सऐप न हो तो शेयर मेन्यू)। बहुत लंबी डिक्शनरी कॉपी हो जाती है। My Info कभी नहीं जाती, और कुछ भी अपने आप नहीं भेजा जाता।
+नया: उर्दू स्पेलिंग की सफ़ाई। रिकग्नाइज़र जो 'आ' (मद्दा) छोड़ देता है (जैसे آپ، آج، آؤ) वह वापस लग जाता है, 'ں' वाली जमा (जैसे کتابوں سے) जो कभी अलग हो जाती है वह जुड़ जाती है, और कई आम ग़लतियाँ ठीक होती हैं। इस्लामी वाक्यांश (जैसे انشاء اللہ) अब सही उर्दू लिपि में, मिले हुए शब्दों के साथ आते हैं।
+नया: Emoji and Flags। 425 नए इमोजी, देशों के झंडे, और हिंदी में भी 'इमोजी' कहकर नाम से इमोजी (उर्दू की तरह)। रोमन उर्दू में भी नामों और शहरों की स्पेलिंग बेहतर है।
+नया (टेस्टिंग, डिफ़ॉल्ट ऑफ़): Settings > Quran aur Hadees (In Testing)। Quran: ऑन करके अरबी आयत, तर्जुमा और तशरीह में से जो चाहें चुनें (कम से कम एक ज़रूरी है), फिर बोलें 'Quran surah number 55 ayat number 10' या 'Quran surah Rahman ayat number 10'। Hadees: ऑन करके बोलें 'Sahih Bukhari hadees number 50'। अरबी और उर्दू तर्जुमा सीधे प्रामाणिक स्रोत से टाइप होता है (अभी सिर्फ़ सही बुख़ारी, कम्युनिटी स्रोत पर टेस्टिंग)। AI या डिक्शनरी की कोई तब्दीली नहीं। इंटरनेट ज़रूरी है।
+नया: Settings > Reports & Info > Send Report to Developer। कोई समस्या हो तो एक छोटी तकनीकी रिपोर्ट (वर्ज़न, एंड्रॉइड और फ़ोन का मॉडल, सेटिंग की ऑन/ऑफ़ हालत, डिक्शनरियों के वर्ज़न) डेवलपर की व्हाट्सऐप चैट में खुल जाती है। आपको पहले पूरी रिपोर्ट नज़र आती है, और भेजना आपके हाथ में है। API keys, My Info, My Dictionary के शब्द, History या टाइप किया हुआ टेक्स्ट इसमें कभी शामिल नहीं होता।
+हटा दिया गया: Typing Mode की 'Offline Recognition' (Off/Auto/Always) सेटिंग पूरी तरह हटा दी गई। अब रिकग्नाइज़र हमेशा एंड्रॉइड/गूगल के डिफ़ॉल्ट तरीक़े से चलता है। जिन लोगों ने पहले इसे ऑन किया था, उन पर अब इसका कोई असर नहीं।
+डिक्शनरियाँ बड़ी हो गई हैं: उर्दू (4,000 से ज़्यादा शब्द, जिनमें स्क्रीन रीडर, TTS और एक्सेसिबिलिटी के शब्द भी हैं), हिंदी (2,500 से ज़्यादा शब्द), रोमन उर्दू, और Emoji and Flags।
+नया: मेन मेन्यू > Download Dictionaries। उर्दू और हिंदी की शब्द-से-शब्द डिक्शनरी (उर्दू शब्द से अंग्रेज़ी शब्द, जैसे 'WhatsApp', 'screen reader') अब कोड के अंदर नहीं बल्कि अलग फ़ाइल में है जो आप डाउनलोड करते हैं। इसे नई रिलीज़ के बिना अपडेट किया जा सकता है। मेन मेन्यू > Download Dictionaries से उर्दू (4,000 से ज़्यादा शब्द) और हिंदी (2,500 से ज़्यादा शब्द) की डिक्शनरी, और Emoji and Flags डिक्शनरी (नाम जैसे 'red heart emoji', M-नंबर जैसे 'M 95', देशों के झंडे और इमोजी की सूची/खोज) डाउनलोड होती हैं। उर्दू/हिंदी टाइपिंग में अंग्रेज़ी शब्द और इमोजी इसी से आते हैं। Emoji डिक्शनरी डाउनलोड न हो तो M-नंबर, झंडे और 'नाम emoji' काम नहीं करते। रोमन उर्दू की डिक्शनरी (शब्द की स्पेलिंग ठीक करने वाली) अपने आप, ख़ामोशी से डाउनलोड हो जाती है जब मेन मेन्यू खुलता है और इंटरनेट हो। Download Dictionaries में सिर्फ़ एक स्टेटस लाइन दिखती है। इंटरनेट न हो तो रोमन उर्दू टाइपिंग सामान्य अंग्रेज़ी की तरह चलती है। इस्लामी वाक्यांश (जैसे 'قائدِ اعظم', 'रज़ी अल्लाहु अन्हु') भी इसी उर्दू/हिंदी डिक्शनरी फ़ाइल का हिस्सा हैं। पुरानी बिल्ट-इन तालिकाएँ कोड से हटा दी गईं। डिक्शनरी डाउनलोड न हो तो उस भाषा में अंग्रेज़ी शब्द वापस नहीं आते।
+डिक्शनरी अपडेट: जब उर्दू, हिंदी या Emoji डिक्शनरी की नई ताज़ा डिक्शनरी उपलब्ध होती है तो पूरी एक्सटेंशन अपडेट करने की ज़रूरत नहीं। Download Dictionaries में उस डिक्शनरी के सामने 'Update available' लिखा आता है, टैप करें तो सिर्फ़ डिक्शनरी अपडेट हो जाती है। 'Updated' लिखा हो तब भी टैप करके दोबारा डाउनलोड की जा सकती है। अगर डिक्शनरी डाउनलोड नहीं हुई तो एक्सटेंशन सिर्फ़ एक बार पूछती है (Later पर दोबारा नहीं पूछती, Download Dictionaries से ख़ुद कर सकते हैं)।
+नया: What's New और About अब 4 भाषाओं में हैं: रोमन उर्दू (डिफ़ॉल्ट), अंग्रेज़ी, उर्दू और हिंदी। यह टेक्स्ट कोड में नहीं बल्कि इंटरनेट से आता है: मेन मेन्यू पहली बार खुलते ही अपने आप डाउनलोड हो जाता है, फिर इंटरनेट के बिना भी पढ़ा जा सकता है। भाषा Settings > Info Language से बदलें। अगर पहली बार इंटरनेट न हो तो What's New या About खोलने पर साफ़ बता दिया जाता है कि पहली बार डाउनलोड के लिए इंटरनेट ज़रूरी है।
+Factory Reset डाउनलोड की हुई डिक्शनरियों को नहीं मिटाता। उन्हें हटाने के लिए: मेन मेन्यू > Download Dictionaries > Delete Downloaded Dictionaries। What's New और About के टेक्स्ट Factory Reset से मिट जाते हैं, लेकिन अगली बार मेन मेन्यू खुलने पर ख़ुद दोबारा डाउनलोड हो जाते हैं।
+बनाने वाले: सना ख़ान और मूसा ख़ान। Where Every Idea Becomes Accessible. CSR with MK।
+@@SECTION whatsnew_2_1
+MK Master Typing 2.1 - MK Master Typing 2.0 (1 October 2026) की तुलना में, एक झलक:
+-- मेन मेन्यू और TYPING MODE --
+Switch Languages हटा दिया गया। अब एक ही एकीकृत 'Quick Favorite' सिस्टम है। Typing Mode में Language के ठीक बाद Quick Favorite का नया विकल्प है, जिसमें 6 कॉम्बो-बॉक्स स्लॉट हैं (डिफ़ॉल्ट में Slot 1 रोमन उर्दू, Slot 2 उर्दू, Slot 3 हिंदी, Slot 4 अंग्रेज़ी, Slot 5 और 6 कोई नहीं)। हर स्लॉट किसी भी भाषा पर सेट हो सकता है, कम से कम 2 स्लॉट भरे होने चाहिए।
+मेन मेन्यू का 'Quick Favorite' बटन दबाना, 'switch language' बोलना और 'MK Master Typing switch' बोलना, ये तीनों तरीक़े अब हमेशा इसी एक तय की गई सूची में घूमते हैं, चाहे अभी कोई भी टाइपिंग मोड चल रहा हो। Start Prompt और Sentence Ending: Typing Mode की दो नई सेटिंग। सुनना शुरू होने का अंदाज़ और वाक्य के आख़िर का चिह्न, दोनों आपकी पसंद के।
+Offline Recognition (Off/Auto/Always) और Time Style (AM/PM या Plain) भी Typing Mode की नई सेटिंग हैं।
+Quiet Mode हटा दिया गया। पुष्टि की आवाज़ें हमेशा बोली जाती हैं। Keep Listening का 'stop listening' अब उर्दू/हिंदी में भी ठीक काम करता है, और दोहराए गए संख्या-शब्द ('ek ek') अब सही रहते हैं।
+बीप के बाद बोलने का समय बढ़ा दिया गया। पहले 1 से 1.5 सेकंड में ही 'समझ नहीं आया' आ जाता था, अब ज़्यादा समय मिलता है।
+-- AI, GEMINI और CLAUDE --
+Claude (Anthropic) नया AI प्रदाता है। Gemini या Claude में से एक चुनें (Settings > AI Provider)। हर एक का अपना मॉडल चुनाव (Gemini Model / Claude Model) और Statistics में इस्तेमाल का हिसाब।
+Gemini API key अब ज़्यादा सुरक्षित तरीक़े से भेजी जाती है। उर्दू/हिंदी AI Mode का प्रॉम्प्ट बेहतर हुआ (अंग्रेज़ी शब्द सही रहते हैं)।
+Translation Settings में अब 2 तरीक़े हैं: 'AI Translation' (Gemini/Claude key चाहिए, बेहतर गुणवत्ता) और नया 'Free Translation' (कोई API key नहीं, बस इंटरनेट चाहिए, Google Translate इस्तेमाल करता है)। दोनों एक ही Target Language इस्तेमाल करते हैं (हर एक की अपनी Source Language भी है, Free Translation की Source डिफ़ॉल्ट में आपकी Typing Mode की भाषा को ख़ुद फ़ॉलो करती है), और एक समय में सिर्फ़ एक ही ऑन हो सकता है। 'switch translation' (या 'free translation') बोलकर भी Free Translation ऑन/ऑफ़ हो सकती है। किसी भी टाइपिंग मोड (रोमन उर्दू, अंग्रेज़ी, उर्दू, हिंदी) से चलता है। Free Translation Tone (छोटी कामयाबी/नाकामी की बीप) डिफ़ॉल्ट में ऑफ़ है, Translation Settings में ख़ुद ऑन कर सकते हैं।
+-- वॉइस कमांड और सेटिंग --
+Voice Commands अब मेन मेन्यू में हैं, A से Z सूची के साथ। Settings में Search Settings, Daily Typing Summary और Read Current Settings नए हैं। AI Mode की लाइन अब प्रदाता भी बताती है, और Back gesture एक क़दम पीछे ले जाता है।
+वॉइस कैलकुलेटर नया है (जमा, घटाव, गुणा, भाग, प्रतिशत बोलकर)। विराम चिह्नों की कमांड अब 'symbol' शब्द के साथ भी चलती हैं।
+History स्क्रीन पर Search नया है। Update Now अब सचमुच नया main.lua उतारकर ख़ुद अपडेट करता है, और Notice का पूरा नया सिस्टम है (टाइटल/प्रकार, तारीख़ें, हफ़्ते के दिन, वर्ज़न की सीमा वग़ैरह)।
+मेन मेन्यू का पुराना 'About' बटन हटा दिया गया। About, Connect with Us और Feedback अब Settings के 'Connect & About' में हैं।
+-- रोमन उर्दू स्मार्ट टाइपिंग --
+रोमन उर्दू और अंग्रेज़ी टाइपिंग में बहुत सी चीज़ें ख़ुद ठीक होती हैं: इस्लामी शब्दों की सही स्पेलिंग, आम शब्दों की एक जैसी स्पेलिंग, अपने आप कैपिटल (नाम, महीने, शहर वग़ैरह), टाइटल के बाद नाम कैपिटल, और सही जगह पर कॉमा।
+ईमेल/लिंक के डॉट के बाद ग़लत ख़ाली जगह की ग़लती ठीक हो गई।
+-- उर्दू और हिंदी टाइपिंग (दोनों भाषाओं में बराबर) --
+वाक्य के आख़िर में सही चिह्न (उर्दू में '۔'/'؟', हिंदी में '।') और सवाल की बेहतर पहचान।
+उर्दू/हिंदी लिपि की सफ़ाई: ग़लत अक्षर, नुक़्ते और फ़ालतू ख़ाली जगहें ठीक, और अलिफ़-मद्दा जैसी ग़लतियाँ (जैसे 'اپ' अब 'آپ') ठीक होती हैं।
+Settings में दो नए टॉगल: 'English Words (Urdu/Hindi)' और 'Number Words (Urdu/Hindi)' (दोनों डिफ़ॉल्ट ऑन)। English Words ऑन हो तो जो अंग्रेज़ी शब्द रिकग्नाइज़र ने उर्दू/हिंदी लिपि में लिख दिए हों (शब्द, ऐप, टेक्नोलॉजी के शब्द वग़ैरह, संस्कृत शब्द समेत) वे वापस अंग्रेज़ी में आ जाते हैं। Number Words ऑन हो तो उर्दू/हिंदी के संख्या-शब्द ('पांच सौ') अंक (500) बन जाते हैं।
+इसी टॉगल के साथ बोलकर ईमेल, वेबसाइट, फ़ोन नंबर, प्रतिशत और पैसे (Rs.) लिखना भी उर्दू/हिंदी में चलता है।
+My Info और My Dictionary अब उर्दू/हिंदी टाइपिंग में भी काम करते हैं।
+-- इमोजी, प्राइवेसी और स्टोरेज --
+इमोजी का नाम बोलकर सीधे टाइप करें ('fire emoji' वग़ैरह)। उर्दू, हिंदी और रोमन उर्दू तीनों में चलता है (हिंदी में भी 293 इमोजी नाम शामिल हैं), और M-नंबर ('M 95') भी उर्दू/हिंदी में ('ایم 95'/'एम 95') अब काम करता है। 97 नए इमोजी भी शामिल हैं।
+My Info में 'Private' एंट्री: संवेदनशील चीज़ें (शनाख़्ती कार्ड नंबर, अकाउंट नंबर) टाइपिंग में चलती हैं मगर दिखाई नहीं देतीं, और बैकअप/एक्सपोर्ट में नहीं जातीं।
+Settings > Storage Info: Private/Visible Storage के साइज़ देखें (असल फ़ोल्डर का रास्ता नहीं दिखाया जाता), और 'Clear Data' से Session Log/Typing History/Statistics/Learning Log अलग-अलग पुष्टि के साथ साफ़ करें (Settings/My Info/My Dictionary कभी नहीं छुई जातीं)।
+About MK Master Typing अब 2.1 के सभी फ़ीचर की सूची भी रखता है।
+बनाने वाले: सना ख़ान और मूसा ख़ान। Where Every Idea Becomes Accessible. CSR with MK।
+@@SECTION whatsnew_2_0
+MK Master Typing 2.0 - MK Master Typing 1.0 (2024) की तुलना में:
+-- नाम --
+'Master Typing' से 'MK Master Typing' हो गया। नाम और फ़ोल्डर हर जगह बदल गए।
+-- रोमन उर्दू डिक्शनरी (सबसे बड़ा फ़र्क़) --
+उच्चारण ठीक करने वाली डिक्शनरी 1450 से बढ़कर अब 1816 शब्दों की है। इसमें क्रियाएँ, रिश्तों के नाम, घर का सामान, मौसम, शरीर के अंग, रंग, सफ़र, पैसा, सेहत, दीन और आम वाक्यांश शामिल हैं।
+सुधार: पहले बहुत सी एंट्री (जैसे 'lete' से 'laitay') सिर्फ़ आख़िर में ख़ाली जगह देखती थीं, इसलिए 'Delete' और 'complete' जैसे अंग्रेज़ी शब्दों के अंदर ग़लत तरीक़े से मैच हो जाती थीं। अब पूरी डिक्शनरी की हर एंट्री में पूरी और सही शब्द-सीमा की जाँच है। कोई अंग्रेज़ी शब्द ख़राब नहीं होता।
+नया: ख़ुद-ब-ख़ुद कैपिटलाइज़ेशन (पहला शब्द, और हर फ़ुल स्टॉप और प्रश्नचिह्न के बाद)।
+नया: वाक्य के आख़िर में अपने आप फ़ुल स्टॉप या प्रश्नचिह्न लगता है (वाक्य सवाल है या नहीं, यह समझकर)। अगर वाक्य पहले से किसी चिह्न या विराम पर ख़त्म हो रहा हो तो दोबारा नहीं लगता।
+नया: बोले गए संख्या-शब्द अपने आप अंकों में बदल जाते हैं (जैसे 'do hazaar chhabbis' से '2026')। अगर सिर्फ़ एक अकेला संख्या-शब्द हो ('ek din') तो वह शब्द ही रहता है।
+नया: जगह, देश, दिन और महीनों के नाम (विशेष नाम) अपने आप कैपिटल होते हैं।
+-- वॉइस कमांड (बिल्कुल नई चीज़, किसी भी मोड से, टेक्स्ट बॉक्स के बिना भी) --
+'new line' और 'new paragraph' वाक्य के बीच में भी काम करते हैं।
+'keep listening' / 'stop listening': Continuous Listening ऑन/ऑफ़।
+'undo last typing': अब कई स्तर वाला है। लगातार बोलने से और पीछे जाता है (असल बोला हुआ कच्चा टेक्स्ट दिखाता है)।
+'spell': अकेला बोलें, फिर अगली बार हर अक्षर अलग बोलें (जैसे 'M O O S A')। पक्की सही स्पेलिंग के साथ टाइप होता है। वाक्य के हिस्से के तौर पर काम नहीं करता (ग़लती से चलने से बचाव)।
+'phone number' के बाद हर अंक अलग बोलें (अंग्रेज़ी या रोमन उर्दू, जैसे 'zero three four two...')। 11 अंक हों तो मानक पाकिस्तानी मोबाइल फ़ॉर्मेट (XXXX-XXXXXXX) में टाइप होता है।
+'read current text', 'repeat last typed', 'mk master typing switch' (रोमन उर्दू/अंग्रेज़ी के बीच), 'show my info', 'show my dictionary' (मेन्यू सीधे खोल देते हैं, टेक्स्ट बॉक्स से भी)।
+इन सभी कमांड (सिवाय new line/paragraph के) को सिर्फ़ तभी चलना है जब पूरा वाक्य सिर्फ़ वही कमांड हो। किसी बड़े वाक्य के हिस्से के तौर पर बोलने से सामान्य टाइपिंग ही होती है।
+-- स्मार्ट फ़ॉर्मेटिंग (बिल्कुल नई चीज़) --
+करेंसी: '500 rupay' से 'Rs. 500'।
+तारीख़: '15 September 2026' से '15, September, 2026'।
+समय: 'teen baje' से '3:00', 'saadhe teen baje' से '3:30', 'sawa char baje' से '4:15', 'paune teen baje' से '2:45', 'derh baje' से '1:30', 'dhai baje' से '2:30'।
+प्रतिशत: '50 percent' से '50%'।
+ईमेल: 'musa at gmail dot com' से 'musa@gmail.com' (सिर्फ़ तब जब प्रदाता और TLD दोनों पहचाने गए हों, जैसे gmail/yahoo और com/org। वरना सामान्य वाक्य ही रहता है)।
+नंबर वाली सूचियाँ: वाक्य की शुरुआत में 'number one', 'number two' बोलने से बुलेट (•) और अंक लग जाता है (जैसे 'number one I live in Karachi' से '•1, I live in Karachi.')।
+ब्रांड के नाम अपनी सही कैपिटलाइज़ेशन के साथ: WhatsApp, YouTube, iPhone, PayPal, TikTok, LinkedIn, GitHub वग़ैरह।
+-- चिह्नों की कमांड --
+नए चिह्न जुड़े: semicolon, forward slash, apostrophe, tilde, caret, dash। सब '...symbol' बोलकर (जैसे 'semicolon symbol')।
+सुधार: 'backslash'/'backlash' पहले 'symbol' के बिना भी चल जाते थे (जिससे असल शब्द 'backlash' ग़लत टाइप हो सकता था)। अब ये भी '...symbol' माँगते हैं।
+-- MY INFO (बिल्कुल नई चीज़) --
+अपनी निजी जानकारी (नाम, फ़ोन नंबर, पता, ईमेल वग़ैरह) सहेजें। जो भी वाक्यांश बोलें, वही टाइप हो जाए। Add/Edit/Delete, Export/Import (पुष्टि के साथ, क्योंकि इसमें संवेदनशील जानकारी हो सकती है), और Clear All सब शामिल हैं।
+-- MY DICTIONARY (बिल्कुल नई चीज़) --
+अपनी शब्द बदलने वाली एंट्री ख़ुद बनाएँ। Add/Edit/Search/Delete, Export/Import (टकराव की जाँच के साथ), और अलग-अलग प्रोफ़ाइल (जैसे Work/Personal) के बीच स्विच करना।
+Learning Suggestions: जब भी आप 'undo last typing' से किसी शब्द को बार-बार ठीक करें, एक्सटेंशन ख़ुद याद रखती है और My Dictionary > Suggestions में उस शब्द को डिक्शनरी में जोड़ने का विकल्प देती है।
+-- TEXT EDITOR (बिल्कुल नया, पहले 'Text Tools') --
+कोई भी टेक्स्ट पेस्ट करें या बोलकर लिखें। मुफ़्त ऑपरेशन जो अभी चालू हैं: Read Aloud, Word/Character/Line Count, Remove Links, Remove Emojis, Remove Hashtags & Mentions, Clean Everything, Undo Last Operation।
+AI ऑपरेशन (Fix Grammar, Translate to English, Ask AI, AI Action) के लिए Gemini API Keys चाहिए (Settings से जोड़ें)।
+-- मेन्यू सिस्टम (पूरी तरह नए सिरे से व्यवस्थित) --
+My Info, My Dictionary, Text Editor, Settings, Quick Favorite, Typing Mode, सब एक नए व्यवस्थित मेन मेन्यू में (पुराना 'Special Commands'/तेज़ कामों वाला सिस्टम बदल गया)।
+Typing Mode में: भाषा बदलना, Emoji Mood, Keep Listening, Quiet Mode, Vibration।
+Settings में: What's New, Statistics (कुल शब्द/टाइपिंग की बारियाँ/पहली बार कब इस्तेमाल किया), AI Provider (Gemini या Claude, एक समय में सिर्फ़ एक), Gemini API Keys, Claude API Key (भुगतान वाली, वैकल्पिक, सिर्फ़ एक), Claude Model (Haiku/Sonnet/Opus), Backup Everything / Restore from Backup (My Info समेत), Reset to Defaults (सिर्फ़ Typing Mode के टॉगल, कोई डेटा नहीं छूता)।
+Welcome Tour: एक्सटेंशन पहली बार इस्तेमाल करने पर एक छोटा सा टूर, और About सेक्शन में हर फ़ीचर की तफ़्सील।
+-- डिक्शनरी के सुधार (बिल्कुल नई चीज़) --
+ग़ायब संख्या-शब्द जोड़े गए: 27 (sattais), 28 (atthais), 29 (unatees), 31 (iktees)। साल सही लिखने के लिए ये ज़रूरी थे।
+'Musa'/'Mousa' के रूप 'Moosa' में बदलते हैं (और 'Musa Khan'/'Mousa Khan' से 'Moosa Khan')।
+बड़ा सुधार: पूरी डिक्शनरी का ऑडिट किया। 53 आम रोज़मर्रा के शब्द (जैसे 'gane', 'jab', 'kamre', 'manjil', 'sabko') ग़लती से हमेशा बड़े अक्षर से टाइप हो रहे थे, चाहे वाक्य के बीच में हों। अब सिर्फ़ वाक्य की शुरुआत में बड़ा अक्षर आता है, जैसा होना चाहिए। नाम/ब्रांड के नाम/इस्लामी शब्द/अभिवादन जैसी असल विशेष-नाम वाली एंट्री (जो हमेशा बड़े अक्षर से होनी चाहिए) को हाथ नहीं लगाया।
+सुधार: हिंदी मूल के कुछ दोहराए गए वाक्यांश (जैसे 'dheere-dheere', 'bar-bar', 'kaun-kaun') रिकग्नाइज़र कभी-कभी देवनागरी लिपि में भेज देता था, चाहे हम हमेशा 'en-US' माँगते हैं। अब ऐसे 29 आम जोड़े अपने आप रोमन उर्दू में बदल जाते हैं।
+इस्लामी उपाधियाँ: 'Rahmatullah' की 3 अलग-अलग ग़लत स्पेलिंग ठीक की गईं, 'Radi Allahu Ta'ala Anha/Anho' भी।
+वाक्य की शुरुआत में 'Hi' हमेशा अंग्रेज़ी अभिवादन समझा जाता है (जैसे 'Hi kaise ho' से 'Hi kaisay ho'), बीच में आए तो पुराना नियम चलता है।
+-- पर्दे के पीछे (बिल्कुल नई चीज़) --
+मेन्यू खुलने पर एक छोटा Update Check अपने आप चलता है (20 सेकंड के सुरक्षा-अंतराल के साथ, ताकि कभी अटके नहीं)। अगर नया वर्ज़न उपलब्ध हो तो बता देता है, वरना कुछ नहीं दिखाता। आप ख़ुद भी कभी भी Settings > Check for Update से हाथ से जाँच सकते हैं।
+आपकी Settings, My Info और My Dictionary का डेटा अब एक सुरक्षित, निजी जगह पर सहेजा जाता है। अगर कभी 'MK Master Typing' वाला फ़ोल्डर डिलीट हो जाए (जैसे किसी दूसरी ऐप से सफ़ाई करते वक़्त), आपका डेटा फिर भी सुरक्षित रहता है। वह फ़ोल्डर अब सिर्फ़ तब भरता है जब आप ख़ुद Export, Backup या Session Log Export करें।
+नया विकल्प: Settings > Export Session Log। आंतरिक सेशन लॉग को भी बैकअप की तरह एक्सपोर्ट/शेयर कर सकते हैं।
+-- SPECIAL COMMANDS (1.0 से मौजूद थे, 2.0 में पूरा ऑडिट और सुधार) --
+बड़ा सुधार: जिन डिक्शनरी एंट्री में अंक हो (जैसे 'j1', 'M 01') वे पहले सिर्फ़ छोटे अक्षरों में मैच होती थीं। 'J1'/'M 01' (जो रिकग्नाइज़र अक्सर पहला शब्द बड़ा करके देता है) काम नहीं करता था। अब ये सब बाक़ी डिक्शनरी की तरह अक्षरों के बड़े-छोटे होने से आज़ाद हैं।
+इसी सुधार से ठीक हुए: स्क्रीन रीडर के नाम (J1/J2/J3), सारे अभिवादन/माफ़ी के वाक्य (01-10), और सारे इमोजी शॉर्टकट।
+इमोजी 73 से बढ़कर अब 200 हैं। भाव, हाथ/इशारों, लोगों, जानवरों, खाने, खेलों, मौसम, और सफ़र/चीज़ों के नए शॉर्टकट। About में हर नंबर की तफ़्सील मौजूद है।
+देशों के झंडे 33 से बढ़कर अब 105 हैं। मशहूर देशों (तुर्किये, इटली, रूस, इराक़, नाइजीरिया, मेक्सिको, थाईलैंड, यूक्रेन वग़ैरह) के झंडे शामिल हुए।
+चिह्नों की रेफ़रेंस सूची ठीक की गई। पहले 'comma', 'colon' जैसे सादे नाम दिखाती थी जो कभी काम ही नहीं करते थे (असल कमांड हमेशा '...symbol' माँगती है)। अब सही नाम दिखाती है।
+CSR with MK और MK International Stadium के सभी लिंक (WhatsApp, Telegram, YouTube, Drive, ईमेल, यूज़रनेम, प्लेलिस्ट, 27 कमांड) एक अलग, सुरक्षित तालिका में हैं। हमेशा बिल्कुल वैसे ही, क्लिक होने वाले पेस्ट होते हैं, और सामान्य वाक्य की सफ़ाई (फ़ुल स्टॉप/कैपिटलाइज़ेशन) से कभी ख़राब नहीं होते।
+150 से ज़्यादा पुराने अलग-अलग वीडियो लिंक का हवाला भी हटा दिया गया (जो पहले मिलाते वक़्त रह गए थे)। अब सिर्फ़ वही कमांड दिखती हैं जो सचमुच काम करती हैं।
+-- यूज़र इंटरफ़ेस की बेहतरी --
+हर उप-मेन्यू (Settings, My Info, My Dictionary, Typing Mode, Text Editor) खुलते ही अपना नाम बोलता है। फ़ौरन पता चल जाता है कि आप कहाँ हैं।
+My Info/My Dictionary ख़ाली हों तो पहली बार खुलते वक़्त एक छोटी सी हिदायत मिलती है ('Add Info'/'Add Word' से शुरू करें)।
+पूरी ऐप में 'वापस जाने' वाले बटन का नाम एक जैसा कर दिया गया। हमेशा 'Go Back', कहीं 'Back' और कहीं 'Exit' नहीं।
+Settings के टाइटल/घोषणा में अब मौजूदा Typing Mode और Dictionary Profile का छोटा सार दिखाया जाता है (जैसे 'Roman Urdu | Personal Profile')।
+AI Mode, Translation (Source और Target दोनों भाषाएँ चुनी जा सकती हैं) और Emoji Mood के लिए Gemini API Keys चाहिए (Settings से जोड़ें, 5 तक keys सहेजी जा सकती हैं)। दोनों AI Typing Mode और Text Editor में उपलब्ध हैं।
+-- नई भाषाएँ --
+उर्दू (नस्तालीक़) और हिंदी (देवनागरी): अपनी असल लिपि में सीधी टाइपिंग। AI Mode के साथ व्याकरण/विराम चिह्न भी ठीक होते हैं।
+Language मेन्यू 68 और भाषाएँ भी देता है (फ़्रेंच, स्पैनिश, अरबी, चीनी, जापानी वग़ैरह)। ऊपर Search भी है, और पूरी सूची सीधे स्क्रॉल करके भी मिल जाती है।
+-- TRANSLATION SETTINGS --
+Source Language और Target Language दोनों अलग-अलग सेट की जा सकती हैं (डिफ़ॉल्ट उर्दू से अंग्रेज़ी है, लेकिन हिंदी से अंग्रेज़ी, या अरबी से कोई और भाषा भी सेट कर सकते हैं)। Typing Mode की भाषा से बिल्कुल स्वतंत्र।
+-- AI MODE --
+इमोजी, उर्दू और हिंदी टेक्स्ट Gemini के साथ पूरी तरह सही काम करता है।
+5 तक Gemini API Keys सहेजी जा सकती हैं। एक का कोटा ख़त्म हो तो अपने आप अगली आज़माई जाती है (मुफ़्त स्तर की सीमा कई गुना बढ़ जाती है)। API Key बनाने का पूरा तरीक़ा Settings > Gemini API Keys पर मौजूद है। अगर आपके पास भुगतान वाली Claude key है तो Settings > AI Provider से Claude पर जा सकते हैं (डिफ़ॉल्ट Gemini है)।
+कोई भी AI एरर टेक्स्ट बॉक्स में नहीं आता, एक अलग डायलॉग बॉक्स में साफ़ दिखाया जाता है।
+-- EMOJI MOOD --
+AI हर वाक्य का मतलब समझकर सही जगह इमोजी लगाता है।
+3 स्तर: Low (बहुत कम), Medium, High (हर वाक्य में)। Typing Mode में बदलते रहते हैं।
+-- HISTORY --
+Settings > History: हर टाइपिंग की बारी (जो बोला, जो टाइप हुआ) सहेजी रहती है। Favorite चिह्नित कर सकते हैं (जो कभी डिलीट नहीं होती), Copy/Delete भी।
+नई वॉइस कमांड: 'search emoji [शब्द]'। 200 इमोजी में से खोजकर नंबर बता देती है।
+-- सुरक्षा और भरोसा --
+क्रैश से बचाव का गार्ड: अगर इशारा (gesture) जल्दी-जल्दी बार-बार चल जाए (सेंसर के हिलने से), तो एक्सटेंशन ख़ुद संभाल लेती है। क्रैश नहीं होता।
+Settings एंड्रॉइड की अपनी सुरक्षित SharedPreferences में सहेजी जाती हैं।
+Backup Everything सभी सहेजी हुई API keys को भी सुरक्षित रखता है (वे बैकअप की फ़ाइल में कभी नहीं जातीं)।
+बनाने वाले: सना ख़ान और मूसा ख़ान। Where Every Idea Becomes Accessible. CSR with MK।
+@@SECTION whatsnew_1_0
+Master Typing 1.0 (15 October 2024):
+रोमन उर्दू, उर्दू (नस्तालीक़), हिंदी (देवनागरी), अंग्रेज़ी और 68 से ज़्यादा दूसरी भाषाओं की वॉइस-टाइपिंग एक्सटेंशन, जो स्क्रीन रीडर के टेक्स्ट बॉक्स में बोलकर लिखने देती है। साथ में उच्चारण ठीक करने वाली डिक्शनरी (लगभग 600 शब्द, रोमन उर्दू के लिए)।
+मेन्यू सिस्टम पहले से मौजूद था (जब टेक्स्ट बॉक्स न हो): Dialog + GridView, यूट्यूब कोर्स प्लेलिस्ट के लिंक, Download Extensions, और तेज़ काम (Accessibility Settings, ब्लूटूथ टॉगल, मौजूदा तारीख़ देखना, मौजूदा तापमान देखना, तस्वीर का विवरण)।
+'Special Commands' श्रेणी सिस्टम पहले से मौजूद था: स्क्रीन रीडर के नाम (J1/J2/J3 जैसे छोटे कोड), गर्मजोशी भरे अभिवादन, माफ़ी के वाक्य, देशों के झंडे, इमोजी (73 शॉर्टकट), चिह्न, और CSR with MK की सामग्री और प्लेटफ़ॉर्म (लिंक)।
+About सेक्शन पहले से मौजूद था: About Master Typing, About CSR with MK, About Feedback। फ़ीडबैक व्हाट्सऐप के ज़रिए पहले से लिखे संदेश के साथ भेजा जा सकता था।
+बुनियादी चिह्नों की कमांड मौजूद थीं (कॉमा, कोलन, ऐट, हैश, स्टार, डॉलर, रुपया, बैकस्लैश, ब्रैकेट, कोट वग़ैरह), लेकिन शब्द की सीमा और नामों की व्यवस्था अभी वैसी बेहतर नहीं थी जैसी 2.0 में है।
+निजी जानकारी और लिंक खोजने वाले वाक्य मौजूद थे (जैसे 'my email id', 'my mobile number', 'my full address', यूट्यूब प्लेलिस्ट के लिंक वग़ैरह), लेकिन My Info/My Dictionary जैसी व्यवस्थित प्रणाली नहीं थी। सब कुछ इसी बड़ी डिक्शनरी में लिखा हुआ था।
+सुरक्षा नोट: इस वर्ज़न में एक 'Actions' मेन्यू आइटम था जो एक छिपा हुआ (एन्क्रिप्टेड) कोड ब्लॉक चलाता था। उसकी सामग्री जाँची नहीं जा सकती थी, इसलिए 2.0 बनाते समय उसे पूरी तरह हटा दिया गया।
+बनाने वाले: सना ख़ान और मूसा ख़ान। Where Every Idea Becomes Accessible. CSR with MK।
+@@SECTION about
+MK Master Typing में आपका स्वागत है, वर्ज़न {VERSION} ({DATE})।
+बनाने वाले: सना ख़ान और मूसा ख़ान। Where Every Idea Becomes Accessible. CSR with MK।
+MK Master Typing कमेंट्री स्क्रीन रीडर की एक एक्सटेंशन है जिससे आप आवाज़ के ज़रिए टाइपिंग कर सकते हैं, और आवाज़ से ही बहुत सा दूसरा काम भी।
+-- भाषाएँ और TYPING MODES --
+रोमन उर्दू (डिफ़ॉल्ट), अंग्रेज़ी, उर्दू (नस्तालीक़, अपनी असल लिपि), हिंदी (देवनागरी, अपनी असल लिपि), और 68 दूसरी भाषाएँ (फ़्रेंच, स्पैनिश, अरबी, चीनी वग़ैरह)। Typing Mode > Language से चुनें, ऊपर Search भी है।
+Quick Favorite: मेन मेन्यू का एक आइटम, अपने आप अगली भाषा पर घूमता है (डिफ़ॉल्ट: रोमन उर्दू, उर्दू, हिंदी, अंग्रेज़ी)। 'switch language' और 'mk master typing switch' वॉइस कमांड भी इसी सूची में घूमती हैं। Typing Mode > Quick Favorite से 6 स्लॉट तक भाषाएँ ख़ुद चुन सकते हैं (कम से कम 2 ज़रूरी हैं)।
+-- AI MODE, EMOJI MOOD, TRANSLATION --
+AI Mode: AI (Gemini या Claude, Settings > AI Provider से चुनें, एक समय में सिर्फ़ एक) व्याकरण/विराम चिह्न/वाक्य की बनावट बेहतर करता है। Gemini key या Claude key चाहिए (Settings से जोड़ें)। ध्यान रहे: AI Mode या Translation ऑन हो तो आपका बोला हुआ टेक्स्ट उस प्रदाता (Google या Anthropic) को भेजा जाता है। जो टेक्स्ट भेजना नहीं चाहते उसके लिए AI Mode ऑफ़ रखें।
+Emoji Mood: AI Mode ऑन हो तो हर वाक्य के मतलब के मुताबिक़ ख़ुद इमोजी लगाता है। 4 स्तर (Off/Low/Medium/High), Typing Mode में बदलते रहते हैं।
+Translation Settings: Source Language और Target Language दोनों अलग-अलग सेट की जा सकती हैं (डिफ़ॉल्ट उर्दू से अंग्रेज़ी)। Typing Mode की भाषा से बिल्कुल स्वतंत्र।
+-- रोमन उर्दू स्मार्ट टाइपिंग (2.1) --
+इस्लामी शब्दों की सही स्पेलिंग ख़ुद लगती है (Assalamu Alaikum, Insha-Allah, Jazak-Allah वग़ैरह)।
+कैपिटल ख़ुद लगता है: अल्लाह, क़ुरआन, महीने, शहर/देश, हफ़्ते के दिन, और आम पाकिस्तानी नामों के लिए।
+टाइटल के बाद नाम कैपिटल होता है (Dr., Mr., Hazrat वग़ैरह), और ब्रांड/बैंक/संक्षेप भी सही शक्ल में आते हैं।
+आम शब्दों की एक जैसी स्पेलिंग, और सही जगह पर अपने आप कॉमा लगता है।
+Time Style और Digits (Western/Native) अब Typing Mode से चुन सकते हैं।
+उर्दू और हिंदी में वाक्य के आख़िर में सही चिह्न अपने आप लगता है (Sentence Ending सेटिंग के मुताबिक़)।
+-- उर्दू / हिंदी, इमोजी, प्राइवेसी (2.1) --
+My Info की Private एंट्री (2.1): Add/Edit Info में 'Private' पर टिक करें। टाइपिंग सामान्य चलती है, लेकिन मान छिपा रहता है और बैकअप/एक्सपोर्ट में नहीं जाता।
+उर्दू/हिंदी में अंग्रेज़ी शब्द (2.1): जो अंग्रेज़ी शब्द रिकग्नाइज़र उर्दू/हिंदी लिपि में लिख दे, वह वापस अंग्रेज़ी में आ जाता है (इसके लिए मेन मेन्यू > Download Dictionaries से उर्दू/हिंदी डिक्शनरी डाउनलोड होनी चाहिए)। My Dictionary अब उर्दू/हिंदी में भी काम करता है।
+उर्दू और हिंदी की सफ़ाई (2.1): लिपि की ग़लतियाँ और चिह्नों के आसपास की ख़ाली जगह ख़ुद ठीक हो जाती है, AI और इंटरनेट के बिना भी।
+इमोजी नाम बोलकर (2.1): किसी भी इमोजी का नाम बोलें तो सीधे टाइप हो जाता है (Emoji and Flags डिक्शनरी डाउनलोड होनी चाहिए)।
+Storage Info (2.1): Settings > Storage Info में देखें कि फ़ाइलें कहाँ हैं और कितनी बड़ी हैं।
+-- 2.2 में नया --
+Download Dictionaries (मेन मेन्यू): उर्दू, हिंदी और Emoji and Flags डिक्शनरियाँ अलग से डाउनलोड होती हैं, और नई डिक्शनरी आने पर वहीं 'Update available' लिखा आता है। टैप करने से सिर्फ़ डिक्शनरी अपडेट होती है, पूरी एक्सटेंशन नहीं। रोमन उर्दू की डिक्शनरी अपने आप ख़ामोशी से डाउनलोड हो जाती है।
+Info Language (Settings): What's New और About MK Master Typing को रोमन उर्दू, अंग्रेज़ी, उर्दू या हिंदी में पढ़ें। यह टेक्स्ट पहली बार मेन मेन्यू खुलते ही इंटरनेट से अपने आप डाउनलोड होता है। Factory Reset इन्हें मिटा देता है, और अगली बार ख़ुद दोबारा डाउनलोड हो जाते हैं।
+Send Dictionary to Developer (My Dictionary): अपनी My Dictionary की एंट्री पहले देखकर डेवलपर की व्हाट्सऐप चैट में भेज सकते हैं। भेजना आपके हाथ में है, My Info कभी नहीं भेजी जाती।
+Send Report to Developer (Settings > Reports & Info): कोई समस्या हो तो छोटी तकनीकी रिपोर्ट (वर्ज़न, एंड्रॉइड और फ़ोन का मॉडल, सेटिंग की ऑन/ऑफ़ हालत, डिक्शनरियों की स्थिति) व्हाट्सऐप में खुल जाती है। API keys, My Info, My Dictionary के शब्द, History और टाइप किया हुआ टेक्स्ट इसमें कभी शामिल नहीं होता।
+उर्दू स्पेलिंग की सफ़ाई: रिकग्नाइज़र जो 'आ' (मद्दा) छोड़ देता है वह वापस लग जाता है, और 'ں' वाली जमा ठीक होती है। उर्दू डिक्शनरी में इस्लामी शब्द (जैसे 'انشاء اللہ') भी ठीक हो जाते हैं।
+Quran और Hadees (टेस्टिंग, शुरू में ऑफ़): Settings > Quran aur Hadees (In Testing)। Quran में अरबी आयत, तर्जुमा और तशरीह में से जो चाहें चुनें (कम से कम एक ज़रूरी है)। Hadees में सही बुख़ारी का अरबी और उर्दू तर्जुमा। सब कुछ सीधे प्रामाणिक वेबसाइटों से, बिना किसी तब्दीली के टाइप होता है। इंटरनेट ज़रूरी है।
+'Quran surah number 55 ayat number 10' या 'Quran surah Rahman ayat number 10' (Quran ऑन हो) वह आयत टाइप करता है। 'Sahih Bukhari hadees number 50' (Hadees ऑन हो) वह हदीस टाइप करता है। ये कमांड तभी चलती हैं जब पूरा वाक्य सिर्फ़ वही हो।
+Typing Mode की 'Offline Recognition' सेटिंग पूरी तरह हटा दी गई है।
+-- वॉइस कमांड (किसी भी मोड से, टेक्स्ट बॉक्स के बिना भी) --
+'new line' और 'new paragraph' के अलावा, ये सभी कमांड सिर्फ़ तब काम करती हैं जब पूरा वाक्य सिर्फ़ वही कमांड हो। किसी बड़े वाक्य के हिस्से के तौर पर बोलने से वह सामान्य टाइपिंग समझी जाएगी, कमांड नहीं।
+'new line': नई लाइन शुरू करता है।
+'new paragraph': नया पैराग्राफ़ शुरू करता है (दो ख़ाली लाइनें)।
+'keep listening': Continuous Listening ऑन करता है।
+'stop listening': Continuous Listening को फ़ौरन रोक देता है।
+'undo last typing': पिछला टाइप किया हुआ शब्द/वाक्य वापस लेता है। लगातार बोलने से और पीछे जाता है।
+'spell': अगली बार हर अक्षर अलग बोलकर सही स्पेलिंग के साथ टाइप करें।
+'phone number' के बाद अंक-दर-अंक बोलने से मानक पाकिस्तानी मोबाइल फ़ॉर्मेट में टाइप होता है।
+'search emoji [शब्द]': इमोजी में से खोजकर M-नंबर बता देता है (297 नंबर वाले इमोजी, Emoji डिक्शनरी चाहिए)।
+लिंक कमांड: CSR with MK के लिंक बिल्कुल वैसे ही पेस्ट होते हैं, किसी प्रोसेसिंग के बिना।
+वाक्य की शुरुआत में 'number one', 'number two' वग़ैरह बोलें तो बुलेट सूची बनती है।
+विराम चिह्न बोलकर टाइप करें ('symbol' शब्द के साथ, या उर्दू/हिंदी में सीधे)।
+वॉइस कैलकुलेटर नया है (2.1): जमा, घटाव, गुणा, भाग और प्रतिशत, संख्याएँ बोलकर भी।
+'read current text': टेक्स्ट बॉक्स का पूरा टेक्स्ट पढ़कर सुनाता है।
+'repeat last typed': आख़िरी टाइप की हुई चीज़ दोबारा बोलता है।
+'switch language' (या 'mk master typing switch'): Typing Mode > Quick Favorite में जो भाषाएँ सेट हों, उन्हीं के बीच अगली भाषा पर ले जाता है (यही सूची मेन मेन्यू के 'Quick Favorite' टैप से भी चलती है)।
+'switch translation' (या 'free translation'): Free Translation को ऑन/ऑफ़ करता है, किसी भी टाइपिंग मोड (रोमन उर्दू, अंग्रेज़ी, उर्दू, हिंदी) से चलता है। ऑन करने पर AI Translation ख़ुद ऑफ़ हो जाती है।
+-- MY DICTIONARY --
+अपनी शब्द बदलने वाली एंट्री ख़ुद बनाएँ: Add Word, My Entries (खोज के साथ, एडिट/डिलीट), Export/Import, इस्तेमाल की गिनती, केस-सेंसिटिव विकल्प, Clear All, ऑटो-बैकअप।
+Profiles: अलग-अलग डिक्शनरियों (जैसे Work और Personal) के बीच Switch Profile से स्विच करें, Manage Profiles से नई बनाएँ या डिलीट करें।
+-- MY INFO --
+अपनी निजी जानकारी (नाम, फ़ोन नंबर, पता, ईमेल वग़ैरह) सहेजें। जो भी वाक्यांश बोलें वही टाइप हो जाए। जैसे 'my phone number' बोलने पर आपका सहेजा हुआ नंबर सीधे टाइप हो जाएगा। My Dictionary से अलग है: यह बिल्कुल सटीक मानों के लिए है, उच्चारण ठीक करने के लिए नहीं।
+-- TEXT EDITOR --
+कोई भी टेक्स्ट पेस्ट करें या बोलकर लिखें। मुफ़्त ऑपरेशन: Read Aloud, Word/Character/Line Count (लाइव दिखता है), Remove Links, Remove Emojis, Remove Hashtags & Mentions, Clean Everything, Undo Last Operation।
+AI ऑपरेशन (Fix Grammar, Translate to English, Ask AI, AI Action): Gemini API Keys चाहिए (Settings से जोड़ें)।
+-- SETTINGS --
+AI Provider (Settings): Gemini या Claude। Claude (Anthropic) भुगतान वाला है। Settings > Claude API Key में सिर्फ़ एक key जुड़ती है (key बनाने का छोटा तरीक़ा वहीं लिखा है), और Settings > Claude Model से Haiku (सबसे सस्ता, डिफ़ॉल्ट), Sonnet, या Opus चुन सकते हैं। Gemini के लिए Settings > Gemini Model। Claude key के बिना Claude पर स्विच नहीं होता।
+Gemini API Keys (1 से 5 तक): AI Mode, Translation, Emoji Mood, और Text Editor के AI ऑपरेशन के लिए ज़रूरी हैं। एक से ज़्यादा मुफ़्त keys सहेजें तो कोटा ख़त्म होते ही अपने आप अगली key आज़माई जाती है। पूरा तरीक़ा इसी स्क्रीन पर मौजूद है।
+History: हर टाइपिंग की बारी (जो बोला, जो टाइप हुआ) सहेजी रहती है, Favorite चिह्नित कर सकते हैं (कभी डिलीट नहीं होती), Copy/Delete भी। History में Search बटन से कोई भी शब्द खोज सकते हैं।
+Settings में Search Settings (कोई भी सेटिंग नाम से खोजें), Daily Typing Summary (पिछले 7 दिन के शब्द), Read Current Settings (सारी सेटिंग एक जगह पढ़कर सुनाता है), और Statistics (Claude requests/tokens समेत)।
+Back gesture या Back बटन एक क़दम पीछे ले जाता है।
+Connect & About (Settings में Search Settings के बाद): About, Connect with Us (WhatsApp community, YouTube, Telegram, Google Drive, Contact), और Feedback।
+Check for Update (Settings): नया वर्ज़न हो तो 'Update Now' GitHub से नया main.lua उतारकर ख़ुद बदल देता है (पुरानी फ़ाइल main.lua.bak में सुरक्षित रहती है)। बस एक्सटेंशन बंद करके दोबारा चलाएँ। कभी-कभी मेन्यू खुलते वक़्त डेवलपर का नया Notice भी आ सकता है।
+What's New यहाँ देख सकते हैं, और Backup Everything / Restore from Backup से पूरे डेटा का बैकअप रख सकते हैं (API keys कभी बैकअप में नहीं जातीं)।
+Reset to Defaults (Settings): दो तरह का है। 'Typing Settings Only' सिर्फ़ Typing Mode की सेटिंग वापस डिफ़ॉल्ट पर लाता है, बाक़ी डेटा (My Dictionary, My Info, History, keys) नहीं छूता। 'Factory Reset - Delete Everything' यह सब मिटा देता है: Settings, API keys, My Dictionary के सभी प्रोफ़ाइल और एंट्री, My Info (निजी भी), History, Statistics, Session Log, Learning Log, और Notice/Welcome Tour का रिकॉर्ड। एक्सटेंशन बिल्कुल नई इंस्टॉल की तरह हो जाती है, और यह वापस नहीं हो सकता। पहले Backup Everything कर लेना बेहतर है। Factory Reset डाउनलोड की हुई डिक्शनरियों को नहीं मिटाता।
+डाउनलोड की हुई डिक्शनरियाँ हटाने के लिए: मेन मेन्यू > Download Dictionaries > Delete Downloaded Dictionaries। इससे सिर्फ़ उर्दू, हिंदी और Emoji डिक्शनरी हटती हैं, आपकी My Dictionary और My Info नहीं छुई जातीं। दोबारा कभी भी Download Dictionaries से डाउनलोड हो सकती हैं।
+-- ACCESSIBILITY और दूसरी सेटिंग --
+Start Prompt (सुनना शुरू होने पर: Speak and Beep / Beep only), Sentence Ending (वाक्य के आख़िर में फ़ुल स्टॉप/ख़ाली जगह/नई लाइन वग़ैरह, सूची में से चुनें), Quick Favorite (6 स्लॉट तक कोई भी भाषा, कम से कम 2 ज़रूरी। 'switch language', 'mk master typing switch' और मेन मेन्यू का टैप तीनों इसी सूची में घूमते हैं), Vibration ऑन/ऑफ़, Session log (क्रैश से सुरक्षित लगातार रिकॉर्ड)।
+इस्तेमाल का तरीक़ा: जब स्क्रीन पर टेक्स्ट बॉक्स हो तो MK Master Typing चलाएँ और बोलें। वही लिखा जाएगा। जब टेक्स्ट बॉक्स न हो तो यह मेन्यू खुलता है जिसका अभी ज़िक्र हुआ।
+मेन मेन्यू में नीचे सिर्फ़ Exit बटन है। Connect & About अब Settings में Search Settings के बाद दूसरा आइटम है (जहाँ आप अभी हैं): About MK Master Typing, About CSR with MK, Connect with Us (WhatsApp community, YouTube channel, Telegram community, Google Drive resources, WhatsApp पर Contact Us), और About Feedback।
+मेन मेन्यू के Voice Commands आइटम में A से Z सूची, स्क्रीन रीडर के नाम, अभिवादन, माफ़ी के वाक्य, देशों के झंडे, इमोजी, चिह्न, और CSR with MK के लिंक जैसी श्रेणियाँ हैं। इनकी तफ़्सील वहीं देख सकते हैं।
+MK Master Typing अपडेट करने के लिए: Jieshuo settings > Download additional resources > Extensions > कीवर्ड में 'CSRwithMK' लिखें (बिना ख़ाली जगह के)।
+बहुत शुक्रिया। MK Master Typing का लुत्फ़ उठाएँ!
