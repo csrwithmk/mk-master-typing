@@ -1,23 +1,22 @@
 {
-  "_comment": "MK Master Typing - CLEAN production remote config for the 2.1 release. No Notice, no Kill-Switch, no Maintenance, no Force Update - safe to publish as-is.",
-
-  "VERSION": "2.1",
+  "_comment": "MK Master Typing - production remote config for the 2.2 release (White Cane Day notice, 15-17 October 2026).",
+  "VERSION": "2.2",
   "WHATSNEW": "",
-
   "DISABLED": "",
   "FORCE_UPDATE": "",
   "MAINTENANCE": "",
   "BANNER": "",
   "HELPTEXT": "",
-
-  "NOTICE_ID": "",
-  "NOTICE": "",
-  "NOTICE_TITLE": "",
+  "NOTICE_ID": "white-cane-day-2026",
+  "NOTICE": "Aaj 15 October, White Cane Day hai. Tamam nabeena doston ko dili mubarakbaad! Saath hi MK Master Typing 2.2 aa gaya hai: nayi Urdu aur Hindi dictionaries, 425 naye emoji aur flags, behtar Urdu spelling, aur My Dictionary se developer ko apne alfaaz bhejne ka naya option. Update karne ke liye Jieshuo settings > Download additional resources > Extensions mein 'CSRwithMK' search karein. CSR with MK.",
+  "NOTICE_TITLE": "Happy White Cane Day!",
   "NOTICE_TYPE": "",
-  "NOTICE_ONCE": "",
+  "NOTICE_ONCE": "true",
   "NOTICE_FORCE_ACK": "",
   "NOTICE_URL": "",
   "NOTICE_URL_LABEL": "",
   "NOTICE_URL2": "",
-  "NOTICE_URL2_LABEL": ""
+  "NOTICE_URL2_LABEL": "",
+  "NOTICE_START": "2026-10-15",
+  "NOTICE_EXPIRES": "2026-10-17"
 }
